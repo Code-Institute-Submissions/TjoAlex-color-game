@@ -14,11 +14,12 @@ resetButton.addEventListener("click", function () {
     //pick new random color from array
     pickedColor = pickColor();
     //change color display to match picked color
-    colorDisplay.textContent = pickColor;
+    colorDisplay.textContent = pickedColor;
     //change colors of squares
     for (var i = 0; i < squares.length; i++) {
         squares[i].style.backgroundColor = colors[i];
     }
+    h1.style.backgroundColor = "#232323";
 })
 
 colorDisplay.textContent = pickedColor;
@@ -35,6 +36,7 @@ for (var i = 0; i < squares.length; i++) {
         //Compare color to pickedColor
         if (clickedColor === pickedColor) {
             messageDisplay.textContent = "Correct!";
+            resetButton.textContent = "Play Again?" //should tell player to play again
             changeColors(clickedColor);
             h1.style.backgroundColor = clickedColor; // change background when correct of h1
         } else {
