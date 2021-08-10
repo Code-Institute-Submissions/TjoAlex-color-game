@@ -10,6 +10,8 @@ var resetButton = document.querySelector("#reset");
 var easyBtn = document.querySelector("#easyBtn");
 var hardBtn = document.querySelector("#hardBtn");
 
+
+//Easy & hard button function 
 easyBtn.addEventListener("click", function () {
     hardBtn.classList.remove("selected");
     easyBtn.classList.add("selected");
@@ -31,7 +33,7 @@ resetButton.addEventListener("click", function () {
     for (var i = 0; i < squares.length; i++) {
         squares[i].style.backgroundColor = colors[i];
     }
-    h1.style.backgroundColor = "#232323";
+    h1.style.backgroundColor = "steelblue"; //must change for h1 heading color
 })
 
 colorDisplay.textContent = pickedColor;
