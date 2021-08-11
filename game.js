@@ -1,9 +1,9 @@
 //Array of 6 colors
 var colors = generateRandomColors(6);
-
+//List of variables
 var squares = document.querySelectorAll(".square");
 var pickedColor = pickColor();
-var colorDisplay = document.getElementById("colorDisplay"); //display rgb in header
+var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
