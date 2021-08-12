@@ -1,10 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 body {
     background-color: #232323;
     margin: 0;
-    font-family: "Montserrat", "Avenir";
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Header Image*/
 .banner-image {
+    width: 100vh;
     background: url(img/header.jpg);
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
