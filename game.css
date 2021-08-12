@@ -22,7 +22,7 @@ body {
     max-width: 600px;
 }
 
-h1 {
+.h1 {
     text-align: center;
     line-height: 1.1;
     font-weight: normal;
