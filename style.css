@@ -1,22 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 body {
-    background-color: #232323;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+  background-color: #232323;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*Header Image*/
 .banner-image {
-    width: 100vh;
-    background: url(img/header.jpg);
+  width: 100vh;
+  background: url(img/);
 }
 
 h2 {
-    color: white;
+  color: white;
 }
 
 p {
-    color: white;
-    font-family: 'Roboto', sans-serif;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Neon button styling*/
+
+.btn1 {
+  background: transparent;
+  color: #00C2BA;
+  width: 90px;
+  height: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  border-color: #00C2BA;
+  font-weight: 600;
+  border-radius: 22px;
+  letter-spacing: 7px;
+  transition: 2s;
+}
+
+.btn1:hover {
+  /* Kanske får ändra klassen till button igen*/
+  cursor: pointer;
+  box-shadow: 0 2px 50px 0 #00C2BA, 0 20px 100px 0 #00C2BA;
+  transition: 1s;
+}
+
+/*scroll down button*/
+/*Code burrowed from https://codepen.io/postor/pen/mskxI */
+.arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
+}
+
+.arrows path {
+  stroke: #00C2BA;
+  fill: transparent;
+  stroke-width: 1px;
+  animation: arrow 3s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0
+  }
+
+  40% {
+    opacity: 1
+  }
+
+  80% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+@-webkit-keyframes arrow
+
+/*Safari and Chrome*/
+  {
+  0% {
+    opacity: 0
+  }
+
+  40% {
+    opacity: 1
+  }
+
+  80% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+.arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s;
+  /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s;
+  /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  /* Safari 和 Chrome */
 }
