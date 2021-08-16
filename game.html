@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--style CSS-->
     <link rel="stylesheet" type="text/css" href="game.css">
@@ -40,9 +43,20 @@
     </nav>
 
     <!--navbar ends here-->
+    <!--Header-->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="content text-center">
 
+            <h1 class="text-white"><img src="img/circle.png" data-speed="-5" class="mx-auto d-block layer"
+                    alt="logo of game" width="400px" height="400px">RGB<br>Color Game</h1>
+            <br>
+            <i class="fa fa-angle-down"><a href="#section2"></a></i>
+        </div>
+    </div>
     <!--Game header-->
+
     <h1 class="h1"><br><span id="colorDisplay">RGB</span></h1>
+    <br>
     <div id="stripe">
         <button id="reset">New Colors</button>
         <span id="message"></span>
@@ -50,6 +64,7 @@
         <button id="hardBtn">Hard</button>
     </div>
     <div id="container">
+
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
@@ -57,8 +72,24 @@
         <div class="square"></div>
         <div class="square"></div>
     </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                1 of 2
+            </div>
+            <div class="col">
+                2 of 2
+            </div>
+        </div>
+    </div>
 </body>
 
+<!--Custom Javascript-->
 <script type="text/JavaScript" src="game.js"></script>
+<!--Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+</script>
 
 </html>
