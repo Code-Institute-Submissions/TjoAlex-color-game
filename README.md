@@ -67,7 +67,27 @@ This might not be too much of a site that is made to earn something on, yet as a
 ## Scope
 
 
+## Thecnologies
 
+For this project following thecnologies was used
+
+### Languages 
+ * HTML 5
+ * CSS 3
+ * JavaScript  
+
+### Libraries and online resources 
+* Boostrap version 5.1 for a responsive website more so navbar and content by using it's libraries and documentation (link)
+* Google fonts to have a more suitable font for the site (link)
+* Font awesome to implement icons more so icon down button (link)
+* Github for use of saving and publishing the code (link)
+* Gitpod for the use of creating the code (link)
+* Colors to help find a template for the theme colors of the website (link)
+
+## Credits 
+
+* Freepngclipart I do not own any of these images on this site and is only used for educational purposes while therefore the credit for image called circle.png comes from (http://www.freepngclipart.com/free-png/42018-blue-circle-effect-fancy-element-free-photo-png)
+* Freelogodesign for creating a free png logo for the site and use it in the navigation bar (https://www.freelogodesign.org/manager/showcase/02acbc758e084476a54ab0beed99402a?utm_source=freelogodesign&utm_medium=email&utm_campaign=fld_30&utm_content=text)
 **Anything more?**
 
 
