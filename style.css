@@ -1,23 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
+.content-area {
+  font-family: 'Roboto', sans-serif;
+  color: #4A4B4E;
+  max-width: 960px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   background-color: #232323;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-}
-
-/*Header Image*/
-.banner-image {
-  width: 100vh;
-  background: url(img/);
-}
-
-h2 {
-  color: white;
-}
-
-p {
-  color: white;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -26,6 +20,7 @@ p {
   color: #8b8b8b !important;
 }
 
+/*icon for navigation styling */
 .fa {
   color: #3a3939;
   font-size: 60px;
@@ -35,34 +30,170 @@ p {
 
 .fas {
   padding-left: 5px;
+}
 
+/*Neon button styling*/
 
-  .bg-light {
-    background-color: rgba(255, 255, 255, 0.5) !important;
+.btn1 {
+  background: transparent;
+  color: #4A4B4E;
+  width: 90px;
+  height: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  border-color: #4A4B4E;
+  font-weight: 600;
+  border-radius: 22px;
+  letter-spacing: 7px;
+  transition: 2s;
+}
+
+.btn1:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 50px 0 #4E85AD, 0 20px 100px 0 #4E85AD;
+  transition: 1s;
+}
+
+/*timer*/
+
+/*Header & content*/
+.vertical-spacer {
+  min-height: 100vh;
+}
+
+.header-text-holder {
+  margin-top: 140px;
+  text-align: center;
+  -webkit-animation: fadein-from-left 1s forwards;
+  animation: fadein-from-left 1s forwards;
+}
+
+.header-text {
+  font-size: 50px;
+}
+
+.subheader-text {
+  font-size: 30px;
+}
+
+.logo {
+  opacity: 0;
+  text-align: center;
+  color: #FB7F27;
+  font-size: 17rem;
+  -webkit-animation: fadein-from-left 1s 0.5s forwards;
+  animation: fadein-from-left 1s 0.5s forwards;
+}
+
+.intro {
+  opacity: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-animation: fadein-from-left 1s 1s forwards;
+  animation: fadein-from-left 1s 1s forwards;
+}
+
+.link-container {
+  margin-top: 20px !important;
+  opacity: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-animation: fadein-from-left 1s 1.5s forwards;
+  animation: fadein-from-left 1s 1.5s forwards;
+}
+
+.link-container a {
+  color: #4A4B4E;
+}
+
+.section-header-text {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}
+
+.icon {
+  margin-top: 30px !important;
+  text-align: center;
+  color: blue;
+  font-size: 2rem;
+}
+
+.section-text {
+  margin-top: 30px !important;
+  text-align: center;
+  color: #fff;
+}
+
+.text-left {
+  margin-top: 30px !important;
+  text-align: left;
+}
+
+.text-right {
+  margin-top: 30px !important;
+  text-align: right;
+}
+
+.separator {
+  border-right: 1px solid black;
+}
+
+/* float in Animation */
+
+@-webkit-keyframes fadein-from-left {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-25px);
+    transform: translateX(-25px);
   }
 
-  /*Neon button styling*/
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
 
-  .btn1 {
-    background: transparent;
-    color: #4E85AD;
-    width: 90px;
-    height: 36px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    border-color: #4E85AD;
-    font-weight: 600;
-    border-radius: 22px;
-    letter-spacing: 7px;
-    transition: 2s;
+@keyframes fadein-from-left {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-25px);
+    transform: translateX(-25px);
   }
 
-  .btn1:hover {
-    /* Kanske får ändra klassen till button igen*/
-    cursor: pointer;
-    box-shadow: 0 2px 50px 0 #4E85AD, 0 20px 100px 0 #4E85AD;
-    transition: 1s;
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (max-height: 850px) {
+  .header-text-holder {
+    margin-top: 20px;
   }
 
+  .section-header-text {
+    margin-top: 20px;
+  }
+}
 
-  /*scroll down button*/
+@media only screen and (max-width: 767px) {
+  .separator {
+    border-right: 0px;
+  }
+}
+
+/* Carousel */
+.section-carousel-text {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
