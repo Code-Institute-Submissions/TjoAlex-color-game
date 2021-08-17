@@ -88,6 +88,7 @@ For this project following thecnologies was used
 
 * Freepngclipart I do not own any of these images on this site and is only used for educational purposes while therefore the credit for image called circle.png comes from (http://www.freepngclipart.com/free-png/42018-blue-circle-effect-fancy-element-free-photo-png)
 * Freelogodesign for creating a free png logo for the site and use it in the navigation bar (https://www.freelogodesign.org/manager/showcase/02acbc758e084476a54ab0beed99402a?utm_source=freelogodesign&utm_medium=email&utm_campaign=fld_30&utm_content=text)
+* Image rgb circles from https://www.jumpingjackrabbit.com/blog-post/beyond-rainbow-design-color/
 **Anything more?**
 
 
