@@ -18,8 +18,10 @@
 </head>
 
 <body>
+
     <!--Navbar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-secondary">
+        <!--fixed top not working?-->
         <div class="container-fluid">
             <a class="navbar-brand" href="#">RGB Color Game
             </a>
@@ -35,7 +37,7 @@
                             <i class="fas fa-home"></i><br> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#section3">
                             <i class="fas fa-question-circle"></i><br>How</a>
                     </li>
                     <li class="nav-item">
@@ -43,7 +45,7 @@
                             <i class="fas fa-gamepad"></i><br>Game</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#section2">
                             <i class="fas fa-info-circle"></i><br>Info</a>
                     </li>
                 </ul>
@@ -54,54 +56,173 @@
     <!--navbar ends here-->
 
     <!--Banner Image-->
-    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
-        <div class="content text-center">
+    <!--  <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+            <div class="content text-center">
 
-            <h1 class="text-white"><img src="img/circle.png" data-speed="-5" class="mx-auto d-block layer"
-                    alt="logo of game" width="400px" height="400px">RGB<br>Color Game</h1>
-            <div class="btn">
-                <button class="btn1"><a class="btn1" href="game.html">PLAY</a></button>
+                <h1 class="text-white"><img src="img/rgb.png" data-speed="-5" class="mx-auto d-block layer"
+                        alt="logo of game" width="400px" height="400px">RGB<br>Color Game</h1>
+                <div class="btn">
+                    <button class="btn1"><a class="btn1" href="game.html">PLAY</a></button>
+                </div>
+                <br>
+                <a href="#section2"> <i class="fa fa-angle-down"></i></a>
             </div>
-            <br>
-            <a href="#section2"> <i class="fa fa-angle-down"></i></a>
+        </div>-->
+    <!--banner 2-->
+    <div class="content-area">
+        <div class="vertical-spacer">
+            <div class="header-text-holder">
+                <div class="header-text">RGB Color Game</div>
+                <div class="subheader-text"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 logo">
+                        <img src="img/rgb.png" data-speed="-5" alt="RGB circles" class="layer">
+                    </div>
+                    <div class="col-12 intro">
+                        <p>Welcome to RGB Color Game!<br>This is the place to help you fully understand RGB. With the
+                            help of fun tools, simple descriptions, you will learn to memorize values that help you work
+                            faster and more efficiently with RGB, which in the future hopes to contribute to more saved
+                            time and greater knowledge that can also lead to greater development in what you specialize
+                            in.</p>
+                    </div>
+
+                    <div class="link-container btn">
+                        <button class="btn1"><a class="btn1" href="game.html">PLAY</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Main content area-->
+
+    </div>
+
+    <span id="section2"></span>
+    <div class="vertical-spacer" id="benefits">
+        <div class="section-header-text">How Does RGB Work?</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 icon">
+                    <i class="fas fa-info-circle"></i>
+                </div>
+                <div class="col-12 section-text">
+                    <p>RGB is short for the colors Red, Green and Blue</p>
+                    <p>It is used by numbers as rgb(0,0,255) that in this case gives us the color blue, this because the
+                        values shown defines the intensity of each color. So if I instead want the color green I must
+                        change the value to rgb(0,255,0) and the color will become green. </p>
+                    <p>These numbers that define the intensity of the colors stay between 0 that is the lowest and 255
+                        that is the highest value. And that's why when you then rember the order of the RGB name
+                        (red,green
+                        and blue) it becomes more easy to guess what color the value provide.</p>
+                    <p>How do I mean by that? Well if the value is high of red and high of blue but low of green, it
+                        most likely are so that the color is drawn towards a more purple color.</p>
+                    <p>With that in mind, you can more easily find a simple understanding of how RGB works and I would
+                        higly advice you to go and play the game to already test your skills. But before that make sure
+                        to look into the extra tips and tricks provided on this page to give you the best possible
+                        experience and learning outcom.</p>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!--Main content area-->
+    <!--two column section-->
+    <div class="vertical-spacer" id="preparation">
+        <div class="section-header-text">RGB<br> Advatnatges & Disadvantages</div>
+        <div class="container">
+            <div class="row">
 
-
-
+                <div class="col-12 section-text">
+                    <p>To give yourself the posibility to find out more about RGB and why to use it, you can here looka
+                        at
+                        some Advantages and Disadvantages regarding this color module listed below: </p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-md-6 text-left separator bg-secondary">
+                            <p><b>Advantages</b></p>
+                            <ul>
+                                <li>No transformation is required to display information on the screen, for this reason,
+                                    it is considered as the base color space for various applications.</li>
+                                <br>
+                                <li>It is used in video display because of additive property.</li>
+                                <br>
+                                <li>It is a computationally practical system.</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 text-left">
+                            <p><b>Disadvantages</b></p>
+                            <ul>
+                                <li>It is non-useful for object specification and recognition of colors.</li>
+                                <br>
+                                <li>It can be difficult to determine a specific color in the RGB model.</li>
+                                <br>
+                                <li>It is a hardware-oriented system.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="container my-5 d-grid gap-5" id="section2">
-        <h2>Welcome gamer, curious person or should I call you future developer!</h2>
-        <p>Here you will find a game made to make things simple and learning fun!
-            The point for this game is to give you all the knowledge and experience
-            in how to work with rgb values. Yet to understand this in it's full
-            potential I recomend you to read the instructions for how the game works
-            and also read the brief explenation of rgb to give yourself the best possible
-            experience.</p>
-    </div>
+    <!--end of two column section-->
 
-    <div class="container my-5 d-grid gap-5">
-        <p class="p-5 border">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, perspiciatis quae! Qui, sequi placeat est
-            rem sapiente itaque commodi! Quibusdam laborum earum corrupti sint laudantium? Quidem temporibus facere
-            pariatur dolore?
-        </p>
-    </div>
-
-
-    <!--Two column section-->
+    <span id="section3"></span>
+    <!--top content for how to play-->
+    <div class="section-header-text">How To Play</div>
+    <!--<div class="section-carousel-text">How To Play</div>-->
     <div class="container">
         <div class="row">
-            <div class="col">
-                1 of 2
-            </div>
-            <div class="col">
-                2 of 2
+            <!--Carousel-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </div>
+    <!--End of carousel-->
+
+    <!--Countdown timer-->
+    <!--<div id="safeTimer">
+        <h2>Safe Timer</h2>
+        <p id="safeTimerDisplay">00:30</p>
+    </div>
+    </div>-->
 
     <!--Custom JavaScript-->
     <script type="text/JavaScript" src="home.js"></script>
