@@ -30,10 +30,19 @@ body {
     font-weight: normal;
     color: black;
     background: steelblue;
-    margin: 0;
+    margin: 0 auto;
     text-transform: uppercase;
     padding: 20px 0;
     border-radius: 40px;
+
+}
+
+h2 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
 }
 
 #colorDisplay {
@@ -53,9 +62,18 @@ span {
     background-color: white;
     height: 70px;
     text-align: center;
-    width: 400px;
     margin: 0 auto;
     border-radius: 40px;
+}
+
+#stripe2 {
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 40px;
+    padding-top: 4px;
+    width: 40%;
 }
 
 .selected {
@@ -81,4 +99,10 @@ button {
 button:hover {
     color: white;
     background: steelblue;
+}
+
+.btn-primary {
+    background-color: steelblue;
+    border-radius: 50px;
+    border-color: #fff;
 }
