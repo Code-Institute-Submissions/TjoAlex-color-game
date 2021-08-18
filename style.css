@@ -2,7 +2,7 @@
 
 .content-area {
   font-family: 'Roboto', sans-serif;
-  color: #4A4B4E;
+  color: black;
   max-width: 960px;
   width: 100%;
   margin-left: auto;
@@ -10,14 +10,16 @@
 }
 
 body {
-  background-color: #232323;
+  background-color: #fff;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .text-white {
   font-size: 60px;
-  color: #8b8b8b !important;
+  color: #fff !important;
 }
 
 /*icon for navigation styling */
@@ -36,19 +38,19 @@ body {
 
 .btn1 {
   background: transparent;
-  color: #4A4B4E;
+  color: #0c43e9;
   width: 90px;
   height: 36px;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  border-color: #4A4B4E;
+  border-color: #0c43e9;
   font-weight: 600;
   border-radius: 22px;
   letter-spacing: 7px;
   transition: 2s;
 }
 
-.btn1:hover {
+.btn1 :hover {
   cursor: pointer;
   box-shadow: 0 2px 50px 0 #4E85AD, 0 20px 100px 0 #4E85AD;
   transition: 1s;
@@ -77,10 +79,7 @@ body {
 }
 
 .logo {
-  opacity: 0;
   text-align: center;
-  color: #FB7F27;
-  font-size: 17rem;
   -webkit-animation: fadein-from-left 1s 0.5s forwards;
   animation: fadein-from-left 1s 0.5s forwards;
 }
@@ -114,20 +113,13 @@ body {
   padding-top: 100px;
   text-align: center;
   font-size: 50px;
-  color: #fff;
-}
-
-.icon {
-  margin-top: 30px !important;
-  text-align: center;
-  color: blue;
-  font-size: 2rem;
+  color: rgb(0, 0, 0);
 }
 
 .section-text {
   margin-top: 30px !important;
   text-align: center;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .text-left {
@@ -141,7 +133,7 @@ body {
 }
 
 .separator {
-  border-right: 1px solid black;
+  border-right: 3px solid black;
 }
 
 /* float in Animation */
@@ -197,3 +189,5 @@ body {
   text-align: center;
   font-size: 30px;
 }
+
+/*header */
