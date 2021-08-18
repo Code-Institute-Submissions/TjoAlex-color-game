@@ -20,7 +20,7 @@
 <body>
 
     <!--Navbar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-secondary">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <!--fixed top not working?-->
         <div class="container-fluid">
             <a class="navbar-brand" href="#">RGB Color Game
@@ -33,20 +33,25 @@
                 <div class="mx-auto"></div>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">
-                            <i class="fas fa-home"></i><br> Home</a>
+                        <a class="nav-link text-center active" aria-current="page" href="index.html">
+                            <i class="fas fa-home"></i><br> Home
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section3">
-                            <i class="fas fa-question-circle"></i><br>How</a>
+                        <a class="nav-link text-center" href="#how">
+                            <i class="fas fa-question-circle"></i><br>How
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="game.html">
-                            <i class="fas fa-gamepad"></i><br>Game</a>
+                        <a class="nav-link text-center" href="test.html">
+                            <!--change href to #info-->
+                            <i class="fas fa-info-circle"></i><br>Info
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section2">
-                            <i class="fas fa-info-circle"></i><br>Info</a>
+                        <a class="nav-link text-center" href="game.html">
+                            <i class="fas fa-gamepad"></i><br>Game
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -56,56 +61,44 @@
     <!--navbar ends here-->
 
     <!--Banner Image-->
-    <!--  <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
-            <div class="content text-center">
-
-                <h1 class="text-white"><img src="img/rgb.png" data-speed="-5" class="mx-auto d-block layer"
-                        alt="logo of game" width="400px" height="400px">RGB<br>Color Game</h1>
-                <div class="btn">
-                    <button class="btn1"><a class="btn1" href="game.html">PLAY</a></button>
-                </div>
-                <br>
-                <a href="#section2"> <i class="fa fa-angle-down"></i></a>
-            </div>
-        </div>-->
-    <!--banner 2-->
     <div class="content-area">
-        <div class="vertical-spacer">
-            <div class="header-text-holder">
-                <div class="header-text">RGB Color Game</div>
-                <div class="subheader-text"></div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 logo">
-                        <img src="/assets/img/rgb.png" data-speed="-5" alt="RGB circles" class="layer">
-                    </div>
-                    <div class="col-12 intro">
-                        <p>Welcome to RGB Color Game!<br>This is the place to help you fully understand RGB. With the
-                            help of fun tools, simple descriptions, you will learn to memorize values that help you work
-                            faster and more efficiently with RGB, which in the future hopes to contribute to more saved
-                            time and greater knowledge that can also lead to greater development in what you specialize
-                            in.</p>
-                    </div>
+        <!--remoce <div class="vertical-spacer">-->
+        <div class="header-text-holder">
+            <div class="header-text">RGB Color Game</div>
+            <div class="subheader-text"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 logo">
+                    <img src="/assets/img/logo (2).png" alt="RGB circles">
+                </div>
+                <!--remove image and replace with something smaler this makes the site not responsive-->
 
-                    <div class="link-container btn">
-                        <button class="btn1"><a class="btn1" href="game.html">PLAY</a></button>
-                    </div>
+                <div class="col-12 intro">
+                    <p>Welcome to RGB Color Game!<br>This is the place to help you fully understand RGB. With the
+                        help of fun tools, simple descriptions, you will learn to memorize values that help you work
+                        faster and more efficiently with RGB, which in the future hopes to contribute to more saved
+                        time and greater knowledge that can also lead to greater development in what you specialize
+                        in.</p>
+                </div>
+
+                <div class="link-container btn">
+                    <a class="btn1" href="game.html">PLAY</a>
+                    <!--Button cant be anchor should be styled anchor tag no button here-->
+                    <!--Name your classes more exact-->
                 </div>
             </div>
         </div>
-        <!--Main content area-->
 
+
+        <!--Main content area-->
     </div>
 
-    <span id="section2"></span>
-    <div class="vertical-spacer" id="benefits">
+    <div id="info">
+        <!--vertical spacer should be removed-->
         <div class="section-header-text">How Does RGB Work?</div>
         <div class="container">
             <div class="row">
-                <div class="col-12 icon">
-                    <i class="fas fa-info-circle"></i>
-                </div>
                 <div class="col-12 section-text">
                     <p>RGB is short for the colors Red, Green and Blue</p>
                     <p>It is used by numbers as rgb(0,0,255) that in this case gives us the color blue, this because the
@@ -127,7 +120,7 @@
     </div>
 
     <!--two column section-->
-    <div class="vertical-spacer" id="preparation">
+    <div id="info">
         <div class="section-header-text">RGB<br> Advatnatges & Disadvantages</div>
         <div class="container">
             <div class="row">
@@ -138,7 +131,8 @@
                         some Advantages and Disadvantages regarding this color module listed below: </p>
                     <hr>
                     <div class="row">
-                        <div class="col-12 col-md-6 text-left separator bg-secondary">
+                        <div class="col-12 col-md-6 text-left separator">
+                            <!--only a line to break not full column-->
                             <p><b>Advantages</b></p>
                             <ul>
                                 <li>No transformation is required to display information on the screen, for this reason,
@@ -166,10 +160,9 @@
     </div>
     <!--end of two column section-->
 
-    <span id="section3"></span>
     <!--top content for how to play-->
-    <div class="section-header-text">How To Play</div>
-    <!--<div class="section-carousel-text">How To Play</div>-->
+    <div class="section-header-text" id="how">How To Play</div>
+    <!--look if you need slider or not in case of one simple video-->
     <div class="container">
         <div class="row">
             <!--Carousel-->
@@ -216,13 +209,6 @@
         </div>
     </div>
     <!--End of carousel-->
-
-    <!--Countdown timer-->
-    <!--<div id="safeTimer">
-        <h2>Safe Timer</h2>
-        <p id="safeTimerDisplay">00:30</p>
-    </div>
-    </div>-->
 
     <!--Custom JavaScript-->
     <script type="text/JavaScript" src="home.js"></script>
