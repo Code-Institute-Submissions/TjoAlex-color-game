@@ -1,25 +1,22 @@
+/*----Fonts----*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 
-.content-area {
-  font-family: 'Roboto', sans-serif;
-  color: black;
-  max-width: 960px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 body {
-  background-color: #fff;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', serif;
+  color: #333;
   font-size: 18px;
   line-height: 24px;
 }
 
-.text-white {
-  font-size: 60px;
-  color: #fff !important;
+h1 {
+  font-size: 50px;
+  line-height: 1.125;
+}
+
+p {
+  letter-spacing: 2px;
 }
 
 /*icon for navigation styling */
@@ -56,27 +53,14 @@ body {
   transition: 1s;
 }
 
-/*timer*/
+
 
 /*Header & content*/
 .vertical-spacer {
   min-height: 100vh;
 }
 
-.header-text-holder {
-  margin-top: 140px;
-  text-align: center;
-  -webkit-animation: fadein-from-left 1s forwards;
-  animation: fadein-from-left 1s forwards;
-}
 
-.header-text {
-  font-size: 50px;
-}
-
-.subheader-text {
-  font-size: 30px;
-}
 
 .logo {
   text-align: center;
@@ -136,51 +120,6 @@ body {
   border-right: 3px solid black;
 }
 
-/* float in Animation */
-
-@-webkit-keyframes fadein-from-left {
-  from {
-    opacity: 0;
-    -webkit-transform: translateX(-25px);
-    transform: translateX(-25px);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-
-@keyframes fadein-from-left {
-  from {
-    opacity: 0;
-    -webkit-transform: translateX(-25px);
-    transform: translateX(-25px);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-
-@media only screen and (max-height: 850px) {
-  .header-text-holder {
-    margin-top: 20px;
-  }
-
-  .section-header-text {
-    margin-top: 20px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .separator {
-    border-right: 0px;
-  }
-}
 
 /* Carousel */
 .section-carousel-text {
