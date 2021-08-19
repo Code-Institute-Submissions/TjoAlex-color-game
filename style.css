@@ -72,26 +72,31 @@ p {
 
 /*end of fade in animation*/
 
-/*Neon button styling*/
-
-.btn1 {
-  background: transparent;
-  color: #0c43e9;
-  width: 90px;
-  height: 36px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  border-color: #0c43e9;
-  font-weight: 600;
-  border-radius: 22px;
-  letter-spacing: 7px;
-  transition: 2s;
+/*----Header button hover effect----*/
+.hero-banner .btn {
+  position: relative;
+  overflow: hidden;
+  z-index: 9;
 }
 
-.btn1 :hover {
-  cursor: pointer;
-  box-shadow: 0 2px 50px 0 #4E85AD, 0 20px 100px 0 #4E85AD;
-  transition: 1s;
+.hero-banner .btn:before {
+  content: "";
+  background: #02769F;
+  width: 0px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.hero-banner .btn:hover:before {
+  width: 100%;
 }
 
 
