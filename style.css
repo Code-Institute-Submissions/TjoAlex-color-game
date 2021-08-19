@@ -99,6 +99,42 @@ p {
   width: 100%;
 }
 
+/*----Main content----*/
+main {
+  padding: 3em 0;
+  position: relative;
+  background: #fff;
+  box-shadow: 0px -10px 60px rgba(0, 0, 0, 0.25);
+}
+
+.center {
+  text-align: center;
+}
+
+.contained {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 8vh;
+
+  @media (min-width: 500px) {
+    width: 80%;
+  }
+
+  @media (min-width: 600px) {
+    width: 60%;
+  }
+}
+
+
+.center-vertically {
+  text-align: left;
+}
+
+.text-left {
+  margin-top: 30px !important;
+  text-align: left;
+}
+
 
 
 /*Header & content*/
@@ -137,29 +173,6 @@ p {
 
 .link-container a {
   color: #4A4B4E;
-}
-
-.section-header-text {
-  padding-top: 100px;
-  text-align: center;
-  font-size: 50px;
-  color: rgb(0, 0, 0);
-}
-
-.section-text {
-  margin-top: 30px !important;
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-
-.text-left {
-  margin-top: 30px !important;
-  text-align: left;
-}
-
-.text-right {
-  margin-top: 30px !important;
-  text-align: right;
 }
 
 .separator {
