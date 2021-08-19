@@ -15,8 +15,13 @@ h1 {
     line-height: 1.125;
 }
 
+.h1 {
+    font-size: 50px;
+}
+
 p {
     letter-spacing: 2px;
+    padding-bottom: 2px;
 }
 
 /*style square*/
@@ -59,7 +64,7 @@ p {
 }
 
 #colorDisplay {
-    font-size: 200%;
+    font-size: 150%;
 }
 
 #message {
@@ -157,4 +162,11 @@ button:hover {
 
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0, 0, 0, .55);
+}
+
+main {
+    padding: 3em 0;
+    position: relative;
+    background: #fff;
+    box-shadow: 0px -10px 60px rgba(0, 0, 0, 0.25);
 }
