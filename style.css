@@ -19,17 +19,58 @@ p {
   letter-spacing: 2px;
 }
 
-/*icon for navigation styling */
-.fa {
-  color: #3a3939;
-  font-size: 60px;
-  padding: 70px;
+/*----Header----*/
+.hero-banner h1 {
+  font-size: 50px;
+  line-height: 1.125;
+  margin: 0 auto;
+  color: #0B0550;
 }
 
-
-.fas {
-  padding-left: 5px;
+.my-5 {
+  margin-top: 1rem !important;
 }
+
+.py-5 {
+  padding-top: 7rem !important;
+  padding-bottom: 7rem !important;
+}
+
+.img-fluid {
+  padding-top: 35px;
+}
+
+/*Header fade in*/
+.fade-in {
+  -webkit-animation: fadeinout 4s linear forwards;
+  animation: fadeinout 4s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinout {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+/*end of fade in animation*/
 
 /*Neon button styling*/
 
