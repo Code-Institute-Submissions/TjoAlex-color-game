@@ -1,9 +1,22 @@
+/*----Fonts----*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
 
 body {
-    background-color: #232323;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', serif;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.125;
+}
+
+p {
+    letter-spacing: 2px;
 }
 
 /*style square*/
@@ -105,4 +118,43 @@ button:hover {
     background-color: steelblue;
     border-radius: 50px;
     border-color: #fff;
+}
+
+/*----Navbar----*/
+.navbar {
+    padding: .8rem;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.mynav a {
+    color: blue;
+}
+
+.mynav a:hover {
+    border-bottom: 4px solid #0B0550;
+
+}
+
+.active a {
+    border-bottom: 6px solid #0B0550;
+
+}
+
+#nohover {
+    pointer-events: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .55);
 }
