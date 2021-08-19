@@ -78,129 +78,82 @@
     </section>
     <!--End of header-->
 
-    <div id="info">
-        <!--vertical spacer should be removed-->
-        <div class="section-header-text">How Does RGB Work?</div>
+    <!--<div id="info"></div>-->
+    <!--vertical spacer should be removed-->
+
+
+    <main role="main">
+        <!--Welcome section-->
+        <div class="contained">
+            <div class="center">
+                <h1>Hello!</h1>
+                <p>We're so glad you're here!</p>
+
+                <p> For whatever reason you stumble across our website, we can assure you
+                    that this is the right place. Here you will find valuable information about how RGB works, what use
+                    it has and finaly be able to practice your skills by the use of a fun game. All you need to do now
+                    is to explore the page and have fun doing so, let's begin!</p>
+            </div>
+        </div>
+        <img src="./assets/img/startup.png" class="mx-auto d-block" alt="Woman working" style="width: 320px;">
+
+        <!--top content for how to play-->
+        <div class="section-header-text" id="how">How To Play</div>
+        <!--look if you need slider or not in case of one simple video-->
         <div class="container">
             <div class="row">
-                <div class="col-12 section-text">
-                    <p>RGB is short for the colors Red, Green and Blue</p>
-                    <p>It is used by numbers as rgb(0,0,255) that in this case gives us the color blue, this because the
-                        values shown defines the intensity of each color. So if I instead want the color green I must
-                        change the value to rgb(0,255,0) and the color will become green. </p>
-                    <p>These numbers that define the intensity of the colors stay between 0 that is the lowest and 255
-                        that is the highest value. And that's why when you then rember the order of the RGB name
-                        (red,green
-                        and blue) it becomes more easy to guess what color the value provide.</p>
-                    <p>How do I mean by that? Well if the value is high of red and high of blue but low of green, it
-                        most likely are so that the color is drawn towards a more purple color.</p>
-                    <p>With that in mind, you can more easily find a simple understanding of how RGB works and I would
-                        higly advice you to go and play the game to already test your skills. But before that make sure
-                        to look into the extra tips and tricks provided on this page to give you the best possible
-                        experience and learning outcom.</p>
+                <!--Carousel-->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
-    </div>
+        <!--End of carousel-->
 
-    <!--two column section-->
-    <div id="info">
-        <div class="section-header-text">RGB<br> Advatnatges & Disadvantages</div>
-        <div class="container">
-            <div class="row">
+        <!--Custom JavaScript-->
+        <script type="text/JavaScript" src="home.js"></script>
 
-                <div class="col-12 section-text">
-                    <p>To give yourself the posibility to find out more about RGB and why to use it, you can here looka
-                        at
-                        some Advantages and Disadvantages regarding this color module listed below: </p>
-                    <hr>
-                    <div class="row">
-                        <div class="col-12 col-md-6 text-left separator">
-                            <!--only a line to break not full column-->
-                            <p><b>Advantages</b></p>
-                            <ul>
-                                <li>No transformation is required to display information on the screen, for this reason,
-                                    it is considered as the base color space for various applications.</li>
-                                <br>
-                                <li>It is used in video display because of additive property.</li>
-                                <br>
-                                <li>It is a computationally practical system.</li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-md-6 text-left">
-                            <p><b>Disadvantages</b></p>
-                            <ul>
-                                <li>It is non-useful for object specification and recognition of colors.</li>
-                                <br>
-                                <li>It can be difficult to determine a specific color in the RGB model.</li>
-                                <br>
-                                <li>It is a hardware-oriented system.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--end of two column section-->
-
-    <!--top content for how to play-->
-    <div class="section-header-text" id="how">How To Play</div>
-    <!--look if you need slider or not in case of one simple video-->
-    <div class="container">
-        <div class="row">
-            <!--Carousel-->
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="ratio ratio-16x9">
-                            <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="ratio ratio-16x9">
-                            <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="ratio ratio-16x9">
-                            <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </div>
-    <!--End of carousel-->
-
-    <!--Custom JavaScript-->
-    <script type="text/JavaScript" src="home.js"></script>
-
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
-    </script>
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+        </script>
 
 </body>
 
