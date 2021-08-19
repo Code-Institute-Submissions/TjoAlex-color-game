@@ -5,7 +5,7 @@ var squares = document.querySelectorAll(".square");
 var pickedColor = pickColor();
 var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.querySelector("#message");
-var h1 = document.querySelector(".h1");
+var square1 = document.querySelector(".square1"); //maybe change class
 var resetButton = document.querySelector("#reset");
 
 resetButton.addEventListener("click", function () {
@@ -15,7 +15,7 @@ resetButton.addEventListener("click", function () {
     pickedColor = pickColor();
     //change color display to match picked color
     colorDisplay.textContent = pickedColor;
-    this.textContent = "New Colors"
+    this.textContent = "Get new rgb"
 
     messageDisplay.textContent = "";
     //change colors of squares
@@ -35,13 +35,13 @@ for (var i = 0; i < squares.length; i++) {
     //add click listeners to squares
     squares[i].addEventListener("click", function () {
         //Grab color of clicked square
-        var clickedColor = this.style.backgroundColor; //doesn't show correct at any option???
+        var clickedColor = this.style.backgroundColor;
         //Compare color to pickedColor
         if (clickedColor === pickedColor) {
             messageDisplay.textContent = "Correct!";
-            resetButton.textContent = "Play Again?" //should tell player to play again
+            resetButton.textContent = "Play Again!" //should tell player to play again
             changeColors(clickedColor);
-            h1.style.backgroundColor = clickedColor; // change background when correct of h1
+            square1.style.backgroundColor = clickedColor; // change h1 to square1
         } else {
             this.style.backgroundColor = "#232323"
             messageDisplay.textContent = "Try Again"
