@@ -87,10 +87,14 @@ span {
     width: 40%;
 }
 
+/* Maybe could delete striped code*/
+
 .selected {
     color: white;
     background: steelblue;
 }
+
+/* Maybe rome selected styling place to none*/
 
 button {
     border: none;
@@ -116,6 +120,22 @@ button:hover {
     background-color: steelblue;
     border-radius: 50px;
     border-color: #fff;
+}
+
+/*---Heading---*/
+.heading {
+    font-size: 50px;
+    line-height: 1.125;
+    margin: 0 auto;
+    color: black;
+}
+
+.mb-3 {
+    margin-top: 3rem !important;
+}
+
+.bg-light {
+    background-color: cornflowerblue;
 }
 
 /*----Navbar----*/
