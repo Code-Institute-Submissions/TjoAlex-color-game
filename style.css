@@ -4,70 +4,70 @@
 
 
 body {
-  font-family: 'Roboto', serif;
-  color: #333;
-  font-size: 18px;
-  line-height: 24px;
+    font-family: 'Roboto', serif;
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 h1 {
-  font-size: 50px;
-  line-height: 1.125;
+    font-size: 50px;
+    line-height: 1.125;
 }
 
 p {
-  letter-spacing: 2px;
+    letter-spacing: 2px;
 }
 
 /*----Header----*/
 .hero-banner h1 {
-  font-size: 50px;
-  line-height: 1.125;
-  margin: 0 auto;
-  color: #0B0550;
+    font-size: 50px;
+    line-height: 1.125;
+    margin: 0 auto;
+    color: #0B0550;
 }
 
 .my-5 {
-  margin-top: 1rem !important;
+    margin-top: 1rem !important;
 }
 
 .py-5 {
-  padding-top: 7rem !important;
-  padding-bottom: 7rem !important;
+    padding-top: 7rem !important;
+    padding-bottom: 7rem !important;
 }
 
 .img-fluid {
-  padding-top: 35px;
+    padding-top: 35px;
 }
 
 /*Header fade in*/
 .fade-in {
-  -webkit-animation: fadeinout 4s linear forwards;
-  animation: fadeinout 4s linear forwards;
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
 }
 
 @-webkit-keyframes fadeinout {
 
-  0%,
-  100% {
-    opacity: 0;
-  }
+    0%,
+    100% {
+        opacity: 0;
+    }
 
-  50% {
-    opacity: 1;
-  }
+    50% {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeinout {
 
-  0%,
-  100% {
-    opacity: 0;
-  }
+    0%,
+    100% {
+        opacity: 0;
+    }
 
-  50% {
-    opacity: 1;
-  }
+    50% {
+        opacity: 1;
+    }
 }
 
 /*end of fade in animation*/
@@ -75,110 +75,102 @@ p {
 
 /*----Header button hover effect----*/
 .hero-banner .btn {
-  position: relative;
-  overflow: hidden;
-  z-index: 9;
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
 }
 
 .hero-banner .btn:before {
-  content: "";
-  background: #02769F;
-  width: 0px;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+    content: "";
+    background: #02769F;
+    width: 0px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
 }
 
 .hero-banner .btn:hover:before {
-  width: 100%;
+    width: 100%;
 }
 
 /*----Main content----*/
 main {
-  padding: 3em 0;
-  position: relative;
-  background: #fff;
-  box-shadow: 0px -10px 60px rgba(0, 0, 0, 0.25);
+    padding: 3em 0;
+    position: relative;
+    background: #fff;
+    box-shadow: 0px -10px 60px rgba(0, 0, 0, 0.25);
 }
 
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 .contained {
-  margin: 0 auto;
-  width: 80%;
-  padding-top: 8vh;
-
-  @media (min-width: 500px) {
+    margin: 0 auto;
     width: 80%;
-  }
+    padding-top: 8vh;
 
-  @media (min-width: 600px) {
-    width: 60%;
-  }
+    @media (min-width: 500px) {
+        width: 80%;
+    }
+
+    @media (min-width: 600px) {
+        width: 60%;
+    }
 }
 
 
 .center-vertically {
-  text-align: left;
+    text-align: left;
 }
 
 .text-left {
-  margin-top: 30px !important;
-  text-align: left;
+    margin-top: 30px !important;
+    text-align: left;
 }
 
 /*----Navbar----*/
 .navbar {
-  padding: .8rem;
-  font-family: 'Oswald', sans-serif;
+    padding: .8rem;
+    font-family: 'Oswald', sans-serif;
 
 }
 
 
 .navbar-nav li {
-  padding-right: 20px;
+    padding-right: 20px;
 }
 
 .nav-link {
-  font-size: 1.1em;
-  text-transform: uppercase;
+    font-size: 1.1em;
+    text-transform: uppercase;
 }
 
 .mynav a {
-  color: blue;
+    color: blue;
 }
 
 .mynav a:hover {
-  border-bottom: 4px solid #0B0550;
+    border-bottom: 4px solid #0B0550;
 
 }
 
 .active a {
-  border-bottom: 6px solid #0B0550;
+    border-bottom: 6px solid #0B0550;
 
 }
 
 #nohover {
-  pointer-events: none;
+    pointer-events: none;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, .55);
-}
-
-/* Carousel */
-.section-carousel-text {
-  margin-top: 20px;
-  color: #fff;
-  text-align: center;
-  font-size: 30px;
+    color: rgba(0, 0, 0, .55);
 }
