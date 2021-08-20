@@ -118,15 +118,10 @@ button:hover {
     margin-top: 3rem !important;
 }
 
-/*.bg-light {
-    background-color: cornflowerblue;
-} removed not needed*/
-
 /*----Navbar----*/
 .navbar {
     padding: .8rem;
     font-family: 'Roboto', sans-serif;
-    /*Changed font from oswald*/
 }
 
 .navbar-nav li {
