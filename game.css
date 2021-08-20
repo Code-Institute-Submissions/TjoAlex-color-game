@@ -82,23 +82,7 @@ span {
     color: black;
 }
 
-#stripe {
-    background-color: white;
-    height: 70px;
-    text-align: center;
-    margin: 0 auto;
-    border-radius: 40px;
-}
 
-#stripe2 {
-    background-color: white;
-    height: 50px;
-    text-align: center;
-    margin: 0 auto;
-    border-radius: 40px;
-    padding-top: 4px;
-    width: 40%;
-}
 
 /* Maybe could delete striped code*/
 
