@@ -56,19 +56,7 @@ p {
     max-width: 600px;
 }
 
-.h1 {
-    text-align: center;
-    line-height: 1.1;
-    font-weight: normal;
-    color: black;
-    background: steelblue;
-    margin: 0 auto;
-    text-transform: uppercase;
-    padding: 20px 0;
-    border-radius: 40px;
-    /* Maybe could remove this code*/
-
-}
+/*Removed class h1 code*/
 
 #colorDisplay {
     font-size: 200%;
@@ -84,8 +72,10 @@ span {
 }
 
 .selected {
-    color: white;
-    background: steelblue;
+    color: none;
+    /* from white*/
+    background: none;
+    /* from steelblue*/
 }
 
 /* Maybe rome selected styling place to none*/
@@ -128,9 +118,9 @@ button:hover {
     margin-top: 3rem !important;
 }
 
-.bg-light {
+/*.bg-light {
     background-color: cornflowerblue;
-}
+} removed not needed*/
 
 /*----Navbar----*/
 .navbar {
@@ -171,6 +161,8 @@ button:hover {
     color: rgba(0, 0, 0, .55);
 }
 
+/* Main section */
+
 main {
     padding: 3em 0;
     position: relative;
@@ -182,7 +174,6 @@ main {
     margin: 0 auto;
     width: 80%;
     padding-top: 5vh;
-    /* Change from 8 to 5 */
 
     @media (min-width: 500px) {
         width: 80%;
