@@ -15,6 +15,11 @@ h1 {
     line-height: 1.125;
 }
 
+h3 {
+    font-size: 1.5em;
+    margin: 0 0 .5em;
+}
+
 p {
     letter-spacing: 2px;
 }
@@ -155,7 +160,6 @@ main {
     }
 }
 
-
 .center-vertically {
     text-align: left;
 }
@@ -202,4 +206,10 @@ main {
 
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0, 0, 0, .55);
+}
+
+/* Style video*/
+
+.video {
+    padding-bottom: 8rem;
 }
