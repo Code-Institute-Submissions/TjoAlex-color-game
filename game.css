@@ -13,6 +13,7 @@ body {
 h1 {
     font-size: 50px;
     line-height: 1.125;
+    padding-top: 8vh;
 }
 
 .h1 {
@@ -82,10 +83,6 @@ span {
     color: black;
 }
 
-
-
-/* Maybe could delete striped code*/
-
 .selected {
     color: white;
     background: steelblue;
@@ -140,7 +137,6 @@ button:hover {
     padding: .8rem;
     font-family: 'Roboto', sans-serif;
     /*Changed font from oswald*/
-
 }
 
 .navbar-nav li {
@@ -150,6 +146,7 @@ button:hover {
 .nav-link {
     font-size: 1.1em;
     text-transform: uppercase;
+    color: black !important;
 }
 
 .mynav a {
@@ -184,7 +181,8 @@ main {
 .contained {
     margin: 0 auto;
     width: 80%;
-    padding-top: 8vh;
+    padding-top: 5vh;
+    /* Change from 8 to 5 */
 
     @media (min-width: 500px) {
         width: 80%;
