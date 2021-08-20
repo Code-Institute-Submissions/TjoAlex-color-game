@@ -56,8 +56,6 @@ p {
     max-width: 600px;
 }
 
-/*Removed class h1 code*/
-
 #colorDisplay {
     font-size: 200%;
 }
@@ -73,9 +71,7 @@ span {
 
 .selected {
     color: none;
-    /* from white*/
     background: none;
-    /* from steelblue*/
 }
 
 button {
