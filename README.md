@@ -164,7 +164,7 @@ Still I am a beginner at coding and I take every oportunity to find ways to impr
 
 ### Unfixed bugs
 * One issue was for me to fix a easy and hard section on the game page. The idea was to insert a timer for the hard section that count down from 15 secounds yet the thing was for me that I didn't really find a solution for what would happen when the timer stops and what value it had when I for now haven't implemented a point system that could let's say remove one point from the one playing if they doesn't answer in time. Another solution could be to reset the colors for when the timer ends, yet for that it became too complex for me to implement the timer function and where to insert it and so on. So unfortunately this will still be a remaning issue for now I cant fix and therefore leave this site with no easy and hard functions. 
-* Refactoring, this maybe goes a bit hand in hand with the unfixed bug bellow. But what I found was that in my javascript code for the game I would like to make it a bit more clean so that it would be easier for me to maybe implment new functions that could let the game do other things (as for example add a timer). But because of my limited knowledge in that area I left it for now. 
+* Refactoring, this maybe goes a bit hand in hand with the unfixed bug bellow. But what I found was that in my javascript code for the game I would like to make it a bit more clean so that it would be easier for me to maybe implment new functions that could let the game do other things (as for example add a timer). But because of my limited knowledge in that area I left it for now and hope in the future to be able to do some refactoring. 
 
 # Deployment 
 The project was made with the help of Github and Gitpod. This by creating a repository on Github to then make the code on Gitpod development workspace, that in return meant that every time i made changes to my code or added something I had to push my code to Github so that the code then was saved on the local repository on github. Note that before pushing my code I made sure to add git commit messages in the terminal so that I always know what I have done in my code. 
@@ -182,16 +182,29 @@ If you would prefer to run the project locally you should follow these steps:
 4. Open in your preferres IDE
 5. Run your local server 
 
-## Credits <!--work more here-->
+## Credits 
 
-* Freepngclipart I do not own any of these images on this site and is only used for educational purposes while therefore the credit for image called circle.png comes from (http://www.freepngclipart.com/free-png/42018-blue-circle-effect-fancy-element-free-photo-png)
-* Freelogodesign for creating a free png logo for the site and use it in the navigation bar (https://www.freelogodesign.org/manager/showcase/02acbc758e084476a54ab0beed99402a?utm_source=freelogodesign&utm_medium=email&utm_campaign=fld_30&utm_content=text)
-* Image rgb circles from https://www.jumpingjackrabbit.com/blog-post/beyond-rainbow-design-color/
+* Boostrap version 5 for their use of library and grid system <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap</a>
+* Fontawesome for borrowing their icons <a href="https://fontawesome.com/">Font Awesome</a>
+* Shutterstock for inspiring my layout for the website, to help me understand RGB and their use of some images <a href="https://www.shutterstock.com/blog/rgb-definition-design-work">Shutterstock</a>
+* Fontawesome for borrowing their icons <a href="https://fontawesome.com/">Font Awesome</a>
+* I did not come up with the idea for the RGB color game and found the inspiration from FaithTower MediaTeck on youtube and have been using various different sites to help me follow this inspiration and create a similar looking game.<a href="https://www.youtube.com/watch?v=Dr-RUryVGA8&t=21s">FaithTower MediaTeck</a>
+* jsndesign for making a random RGB generating function, understanding how I should create my tags that will send out the function to the game itself, how to make a function to generate random colors in a array and so on. If one look at their website you will see that I haven't copied and pasted their code just used it to understand how I myself can find a structure to build up my code <a href="https://jsndesign.co.uk/blog/javascript-rgb-hex-color-game/">jsndesign</a>
+* W3school to understand for loop and how to work with math random as well ass implementing message and working with HTML DOM <a href="https://www.w3schools.com/js/js_loop_for.asp">W3school</a>
+* MBD to help me understand how to work with bootstrap, making a header for the home page and how to implement a video <a href="https://mdbootstrap.com/docs/standard/content-styles/background-image/">MBD</a>
+* Google fonts for the use of Roboto Fonts <a href="https://fonts.google.com/">Google fonts</a>
+* clker I do not own any of these images on this site and is only used for educational purposes while therefore the credit for image called logo (2).png comes from <a href="http://www.clker.com/clipart-41598.html">clker</a>
+
 
 # Content
+All content for the code of the website has been created by the help of what I have learnt from code institute and the platforms listed under credits. A extra shoutout to <a href="https://www.shutterstock.com/blog/rgb-definition-design-work">Shutterstock</a> for inspiring me to find a layout for my website. <a href="https://jsndesign.co.uk/blog/javascript-rgb-hex-color-game/">jsndesign</a> for helping me get a understanding of how to even start building a RGB color game and lastly to <a href="https://www.youtube.com/watch?v=Dr-RUryVGA8&t=21s">FaithTower MediaTeck</a> that was the youtube video that inspired me to to a game like this. 
 
 # Media 
 All images where taken from different sources on the web, I do not own any of these images and will note that these are only in use of educational purpouses and the copyright belongs to the brands themself. You will find all the sources for the images linked bellow: 
-* Header image on home page <a href="https://iconscout.com/illustration/women-web-developer-with-laptop-2040890">iconscount</a>
-* RGB circles image <a href="https://www.clker.com/clipart-41598.html">clker</a>
+* Header image on home page women.png <a href="https://iconscout.com/illustration/women-web-developer-with-laptop-2040890">iconscount</a>
+* RGB circles image logo (2).png <a href="https://www.clker.com/clipart-41598.html">clker</a>
+* Laptop rgb circles image RGB-profile.jpg<a href="https://www.shutterstock.com/blog/rgb-definition-design-work">Shutterstock</a>
+* The image called RGB-Profile.jpg is made my me and the video inserted is made by me on a programe called <a href="https://www.movavi.com/mac-video-editor/">Movie Video Editor Plus 2021</a>
 
+# Acknowledgements
+I would like to acknowledge my Mentor Antonija Simic for her honest replys on my code and ideas and for being a helful guide when I didn't know what to do or how to even go forward. This has been a challeng for me and I would also like to acknowledge student suport for being much helful when I felt that nothing was working for me. 
