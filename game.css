@@ -41,7 +41,6 @@ p {
 .square1 {
     width: 30px;
     background: white;
-    /*Change color to white so the squares wont show after clicking*/
     padding-bottom: 10%;
     float: left;
     margin: 1.66%;
