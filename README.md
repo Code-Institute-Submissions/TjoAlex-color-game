@@ -6,7 +6,7 @@ This is the website built to give users a bigger understanding and basic knowled
 
 
 ### Showcase
-![mockup](./assets/img/#.jpg)
+![mockup](./assets/img/spel.png)
 
 Live <a href="http">Website</a>
 
@@ -95,11 +95,45 @@ This website is designed to inform the user, and give them valuable understandin
 
 ### Existing Features 
 * Navigation Bar
-  * The navigation bar is designed to always stay with the user trough the site, with a minimal and simple look and some icons as well as text showing what the user can find and quickly take them there. This also provided with a smaler line that when the user hover their mouse over the options of the menu they can easy see where they are looking and also when clicked see where they now are. 
+   * The navigation bar is designed to always stay with the user trough the site, with a minimal and simple look and some icons as well as text showing what the user can find and quickly take them there. This also provided with a smaler line that when the user hover their mouse over the options of the menu they can easy see where they are looking. 
 
-  ![navbar](#)
+* The header section 
+   * Here the user is presented with one image to give the header som style and make the over all look a little bit more fun.
+   * Holds a heading of the name for the "Coompany"
+   * Holds a smaler text explaining the whole purpous of the site in a welcoming way
+   * Holds a button with a hover effect that lead the user to the game right away.
+   * Also holds the navigation that will remain whilst scrolling
+![Header](assets/img/header.png)   
 
-* The home page image and section 
+* The welcome Section 
+   * Heading that welcome the user even more 
+   * Some text that want the user to feel welcome and get a bigger understanding of what the purpous of the site is
+   * Image that show a quick look of how the rgb module looks
+![Header](assets/img/welcome-sec.png)  
+
+* RGB section 
+   * Main heading of the name RGB
+   * Smaler headings telling what the text is about
+   * Here the user is provided with text that tells all about RGB
+   * A image is provided to demonstrate how rgb is overlapping with it's color  
+![Header](assets/img/rgb-txt.png) 
+
+* How to play section 
+   * Heading of How to play, so the users knows what section they are on 
+   * A video displayed for the user to watch showing how the game works 
+   * Smaler heading telling step by step 
+   * Step by step text of how the game works
+   * Image to the right or under(if on smaler screen) the step by step text with numbers following the step by step text
+![Header](assets/img/how-txt.png)  
+
+* Game page 
+   * Heading of the name for the game
+   * RGB value displayed under heading
+   * Button proving new colors and RGB value 
+   * Squares with colors to pick from when playing the game 
+   * Text displayed when the user plays the game so he or she knows if the answer is correct or not
+   * Also provided with the navigation bar that stays with the user on scroll
+![Header](assets/img/spel.png)    
 
 ### Features left to implement 
 I would belive that for every website there are tons of features that could be implemented, yet for this I have found a few that would be of more use and value to implement for this particular website. All of which you find listed bellow:
