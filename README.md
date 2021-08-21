@@ -147,13 +147,19 @@ Still I am a beginner at coding and I take every oportunity to find ways to impr
 
 * Validator Testing 
 * HTML
-  * <!--Was there any issues?--> <a href="https://validator.w3.org/">W3C validator</a>
+  * Game.html gave an error for my script tags, this because the script didn't exist inside of the body and was solved by moving the script tags inside the body. After that was fixed no more errors was found. <a href="https://validator.w3.org/">W3C validator</a>
 * CSS
-  * No errors were found after passing through the official <a href="https://jigsaw.w3.org/css-validator/validator">Jigsaw validator</a>
+   * First one error for game.css for a class contained that wasn't of use, this being fixed by removing the class and no errors were found after passing through the official Jigsaw validator. One thing to note is that style.css and game.css remain with warnings for transition value because of not being known for every browser I believe, yet for now I wanted to keep those transitions anyway knowing about the warnings. <a href="https://jigsaw.w3.org/css-validator/validator">Jigsaw validator</a>
 * JavaScript 
+   * The Jslint validator gave me mostly warnings of the code, many of them could be fixed by removing som extra comments that the code didn't need. Only a few if my warnings are left and after searching for solutions I found that what Jslint wants is me to put all my for and var variables on the top of the code. yet because I want to know where each and everything is and for what they work I let them remain in the same position and for now until I know a better solution ignore the warnings <a href="https://www.jslint.com/">Jslint</a>
 
 * Testing was performed as follows: 
-1. Write my code, go to Devtools to see how it looked on different screens. 
+1. Write my code, go to Devtools to see how it looked on different screens so that it stays responsive. 
+2. Sending live link of the website to people I know to see if it was working on their mobile devices. 
+3. Letting my mentor review my code and see so that it looked right. 
+4. Took my HTML code trough the W3C validator making sure there wasn't any errors or warnings. I took my code trough W3C validator first via the live version that already existed and then afterwards via direkt input of my code. 
+5. Ran my CSS trough the Jigsaw validator trough direct input. 
+6. Took the game.js code trough the Jslint validator by direct input.
 
 ### Results
 * While coding I implemented the header image, and when looking att devtools I saw that this image made the screen of the site too wide. So wide I had to drag the site to the side to see the full page. So whilst using dewtools I looked into what image was the issue and how maybe the width of it could be changed. It took me some tries to find the right class to implement a smaler width for the image yet after some testing the solution ended up with boostrap...?
@@ -194,6 +200,7 @@ If you would prefer to run the project locally you should follow these steps:
 * MBD to help me understand how to work with bootstrap, making a header for the home page and how to implement a video <a href="https://mdbootstrap.com/docs/standard/content-styles/background-image/">MBD</a>
 * Google fonts for the use of Roboto Fonts <a href="https://fonts.google.com/">Google fonts</a>
 * clker I do not own any of these images on this site and is only used for educational purposes while therefore the credit for image called logo (2).png comes from <a href="http://www.clker.com/clipart-41598.html">clker</a>
+* Stack overflow for helping me solve why my script tag under game.html gave an error <a href="https://stackoverflow.com/questions/19958667/stray-start-tag-script">Stack overflow</a>
 
 
 # Content
