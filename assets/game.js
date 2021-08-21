@@ -5,7 +5,7 @@ var squares = document.querySelectorAll(".square");
 var pickedColor = pickColor();
 var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.querySelector("#message");
-var square1 = document.querySelector(".square1"); //Tag to add a result button that change color
+var square1 = document.querySelector(".square1");
 var resetButton = document.querySelector("#reset");
 
 resetButton.addEventListener("click", function () {
@@ -22,7 +22,6 @@ resetButton.addEventListener("click", function () {
     for (var i = 0; i < squares.length; i++) {
         squares[i].style.backgroundColor = colors[i];
     }
-    h1.style.backgroundColor = "steelblue"; //must change for h1 heading color
 })
 
 colorDisplay.textContent = pickedColor;
@@ -39,9 +38,9 @@ for (var i = 0; i < squares.length; i++) {
         //Compare color to pickedColor
         if (clickedColor === pickedColor) {
             messageDisplay.textContent = "Correct!";
-            resetButton.textContent = "Play Again!" //should tell player to play again
+            resetButton.textContent = "Play Again!"
             changeColors(clickedColor);
-            square1.style.backgroundColor = clickedColor; // change h1 to square1
+            square1.style.backgroundColor = clickedColor;
         } else {
             this.style.backgroundColor = "#232323"
             messageDisplay.textContent = "Try Again"
