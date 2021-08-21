@@ -45,63 +45,6 @@ p {
     padding-top: 35px;
 }
 
-/*Header fade in*/
-.fade-in {
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: black;
-    -webkit-animation: fadein-from-left 1s 0.5s forwards;
-    animation: fadein-from-left 1s 0.5s forwards;
-}
-
-@-webkit-keyframes fadein-from-left {
-    from {
-        opacity: 0;
-        -webkit-transform: translateX(-25px);
-        transform: translateX(-25px);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadein-from-left {
-    from {
-        opacity: 0;
-        -webkit-transform: translateX(-25px);
-        transform: translateX(-25px);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-}
-
-@media only screen and (max-height: 850px) {
-    .header-text-holder {
-        margin-top: 20px;
-    }
-
-    .section-header-text {
-        margin-top: 20px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .separator {
-        border-right: 0px;
-    }
-}
-
-/*end of fade in animation*/
-
-
 /*----Header button hover effect----*/
 .hero-banner .btn {
     position: relative;
@@ -150,14 +93,6 @@ main {
     margin: 0 auto;
     width: 80%;
     padding-top: 8vh;
-
-    @media (min-width: 500px) {
-        width: 80%;
-    }
-
-    @media (min-width: 600px) {
-        width: 60%;
-    }
 }
 
 .center-vertically {
@@ -209,7 +144,7 @@ main {
     color: rgba(0, 0, 0, .55);
 }
 
-/* Style video*/
+/*----Style video----*/
 
 .video {
     padding-bottom: 2rem;
