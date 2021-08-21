@@ -5,7 +5,7 @@ var squares = document.querySelectorAll(".square");
 var pickedColor = pickColor();
 var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.querySelector("#message");
-var square1 = document.querySelector(".square1"); //maybe change class
+var square1 = document.querySelector(".square1"); //Tag to add a result button that change color
 var resetButton = document.querySelector("#reset");
 
 resetButton.addEventListener("click", function () {
