@@ -68,10 +68,7 @@ span {
     color: black;
 }
 
-.selected {
-    color: none;
-    background: none;
-}
+
 
 button {
     border: none;
@@ -162,12 +159,4 @@ main {
     margin: 0 auto;
     width: 80%;
     padding-top: 5vh;
-
-    @media (min-width: 500px) {
-        width: 80%;
-    }
-
-    @media (min-width: 600px) {
-        width: 60%;
-    }
 }
