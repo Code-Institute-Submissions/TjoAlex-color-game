@@ -3,43 +3,47 @@
 Welcome to RGB Color Game 
 This is the website built to give users a bigger understanding and basic knowledge about what RGB is and how to recognize it's value. With this you will find a page that explain the concept for RGB as well as how the game provided works to help the user find a easy way to learn the over all structure of the color module. The purpous for this is to give the one curcious a easy way to learn the structure of RGB so that it becomes easier to use whenever neccessary. 
 
-
-
 ### Showcase
 ![mockup](./assets/img/spel.png)
 
 Live <a href="http">Website</a>
 
-(live website)
+# Navigation 
+ * UX 
+  * UX Stories 
+  * First Time Visitor Goals
+  * Returning Visitor Goals
+  * Frequent User Goals
+ * Strategy
+  * User needs 
+  * Business vision
+ * Scope 
+ * Structure 
+ * wireframes 
+    * Changes to wireframes
+ * Features
+    * Existing features
+    * Features Left to implement 
+ * Technologies 
+    * Languages
+    * Libraries and online resources 
+ * Testing
+  * Testing plan  
+  * Results
+  * Bugs 
+  * Unfixed Bugs
+ * Deployment
+ * Credits
+ * Content 
+ * Media 
+ * Acknowledgements
 
-## Navigation
-
-* UX 
-* UX Stories
-* First Time Visitor Goals
-* Returning Visitor Goals
-* Frequent User Goals
-* Strategy
-* User needs
-* Business Vision
-* Scope
-* Structure
-* Wireframes
-* Features
- * Existing Features
- * Feautures Left To Implement
-* Technologies
- * Languages
- * Libraries and online resources 
-* Testing 
-
-## UX
+## UX 
 
 As for the end user of this site one will find easy explenation of RGB and a fun way to test one self of what they learnt through a game  to get a bigger understanding of how to recognize it's values. The end user will therefore want to find a easy description of the items listed: 
 * Presentation of the game
 * Explenation of rgb, how it works and what it is
-* Extra links to other sites with more infromation about rgb
-* Explenation of how the game works 
+* Explenation of how the game works in text and as a video
 * A game to help the user explore the values of rgb
 
 The final goal is to provide knowledge and understanding of the color module rgb that can be used by several different types of people no mather the type of profession they aim towards to use it in. The biggest part is that it is supposed to be a simple and fun way of learning so that the website can provide more curiosity and inspiration. 
@@ -63,17 +67,15 @@ The final goal is to provide knowledge and understanding of the color module rgb
 ### Returning Visitor Goals
 * As a returning visitor, I want to have easy access to the RGB color game
 * As a returning visitor, I want to quickly find the information about RGB
-* As a returning visitor I want to find extra links that can give me more infomration about RGB
 * As a returning info I want to easily find the infromation about how the game works, in case I don't rememeber
 
 ### Frequent User Goals 
-* As a frequent user, I want to find extra links provided about RGB
 * As a frequent user I want to easaly find the RGB color game
 
 ## Strategy 
 
 ### User needs 
-For me as a user the site must be accessible on mobile, tablet and all browsers. The text, information and layout sould be clear and easy to understand. The site should have simple navigation that makes me as a user comfortable directly when turning to the page by not struggeling to find the different pages of the site. As a user I want a site that gives me a quick way of finding different sections of the information and game page
+For me as a user the site must be accessible on mobile, tablet and all browsers. The text, information and layout sould be clear and easy to understand. The site should have simple navigation that makes me as a user comfortable directly when turning to the page by not struggeling to find the different pages of the site. As a user I want a site that gives me a quick way of finding different sections of the information and game page.
 
 ### Business Vision 
 This might not be too much of a site that is made to earn something on, yet as a beginner developer I see this as a way earning greater experience and giving more people the chance to learn something about coding. Therefore I see this as a way of earning more knowledge among more people so that the business in the developing field can grow bigger and become even better in the future. The main purpose is therefore to provide good knowledge in what rgb is, and a fun way of learning it. Something that in the future might be a good business that could sell fun games and sites that provide quick knowledge for people wanting to learn something new. 
@@ -81,8 +83,8 @@ This might not be too much of a site that is made to earn something on, yet as a
 # Scope
 What this website want is to give their users a much easy way of learning the basics of RGB, a place to test what they learned and a place to continuously come back to and exercise their knowledge on.
 
-# Structure <!--kanske fixa denna texten alex-->
-This website is a multipage site, with one page that holds all the infromation and one that holds the game itself. The information is provided into sections that makes it quick and easy for the user to find through the navigation bar prefered information by not being too overwhelmed of what there is to explore. This followed up with clear headings that explains the main purpous of the specific sections and pages. For this the user will find four different sections on the navigation bar Home that leads to the first page one lands on when visiting the site, and also the page that holds all the sections with information. Secondly the Game page that is determined for the game and the game only, with still a navigationbar provided in case the user want to go back and read som more information. The remaining navigations is for the sections one for the RGB explenation and one for the How to play the game explenation. The over all look of the pages is to stya consistent and minimal with images provided for either informative purpouses or styling. For UX purposes the pages are also staying in the same type of layout, to not disorient the user. Overall the user have then the option to look around on the website either trough scrolling by theself or by following the naviagtion menu. 
+# Structure 
+This website is a multipage site, with one page that holds all the infromation and one that holds the game itself. The information is provided into sections that makes it quick and easy for the user to find through the navigation bar prefered information by not being too overwhelmed of what there is to explore. This followed up with clear headings that explains the main purpous of the specific sections and pages. For this the user will find four different sections on the navigation bar Home that leads to the first page one lands on when visiting the site, and also the page that holds all the sections with information. Secondly the Game page that is determined for the game and the game only, with still a navigationbar provided in case the user want to go back and read som more information. The remaining navigations is for the sections one for the RGB explenation and one for the How to play the game explenation. The over all look of the pages is to stay consistent and minimal with images provided for either informative purpouses or styling. For UX purposes the pages are also staying in the same type of layout, to not disorient the user. Overall the user have then the option to look around on the website either trough scrolling by theself or by following the naviagtion menu. 
 
 # Wireframes 
 Original wireframes can be found <a href="#">Bootstrap</a>
@@ -140,7 +142,8 @@ I would belive that for every website there are tons of features that could be i
 
 * Insert two extra buttons for the game that holds a easy and hard function, the hard function then holding a timer that gives the user let's say 15 secounds to find the right color on.
 * For the game a  system that also takes points scored for each correct answer and store these in a scoreboard bellow the game. So the user always can come back and compete with them selfe to always try to do a little bit better than the last time. 
-* Even deeper explanation of rgb and maybe also a rgb rendering "machine" that can let the user play around by clicking on different colors and for themself see what value their preferred color has
+* Even deeper explanation of rgb and maybe also a rgb rendering "machine" that can let the user play around by clicking on different colors and for themself see what value their preferred color has.
+* More information about rgb and maybe some links that lead to more pages explaining rgb. 
 
 ## Thecnologies
 
@@ -154,17 +157,17 @@ For this project following thecnologies was used
 ### Libraries and online resources 
 * Bootstrap V5.0.x used to create a responsive website, navbar, use of libraries and documentation. <a href="https://getbootstrap.com/docs/5.0/components/accordion/">Bootstrap</a>
 * Google fonts to have a more suitable font for the site <a href="https://fonts.google.com/specimen/Roboto?thickness=6">Google fonts</a>
-* Font awesome to implement icons on navigation bar<a href="https://fontawesome.com/">Font Awesome</a>
+* Font awesome to implement icons on navigation bar <a href="https://fontawesome.com/">Font Awesome</a>
 * Github for use of saving and publishing the code for the website <a href="https://github.com/">Github</a>
 * Gitpod for the use of creating the code <a href="https://gitpod.io/workspaces">Gitpod</a>
 * Colors to help find a template for the theme colors of the website <a href="https://coolors.co/ca054d-3b1c32-a4d4b4-ffcf9c-b96d40">Colors</a>
-* Iconscount for their use of all images of the page<a href="https://iconscout.com/free-illustrations">Iconscount</a>
-* Lighthouse for testing performance and accessibility of the site <a href="#"></a>
+* Iconscount for their use of all images of the page <a href="https://iconscout.com/free-illustrations">Iconscount</a>
+* Lighthouse for testing performance and accessibility of the site existing in google devtools 
 * Google Chrome Devtools: for testing the site and how responsive it is
 * To create wireframe used <a href="#">wireframe.cc</a> 
-* Validators to test my code <a href="https://validator.w3.org/">W3C</a> and <a href="https://jigsaw.w3.org/css-validator/">Jigsaw</a>
+* Validators to test my code <a href="https://validator.w3.org/">W3C</a>,<a href="https://www.jslint.com/">Jslint</a> and <a href="https://jigsaw.w3.org/css-validator/">Jigsaw</a>
 * w3school to help me find simple solutions as for styling css <a href="https://www.w3schools.com/html/html_links.asp">w3school</a>
-* MDB bootstrap for helping me understand core concepts of bootstrap<a href="https://mdbootstrap.com/">MDB</a>
+* MDB bootstrap for helping me understand core concepts of bootstrap <a href="https://mdbootstrap.com/">MDB</a>
 
 # Testing 
 
@@ -181,11 +184,12 @@ Still I am a beginner at coding and I take every oportunity to find ways to impr
 
 * Validator Testing 
 * HTML
-  * Game.html gave an error for my script tags, this because the script didn't exist inside of the body and was solved by moving the script tags inside the body. After that was fixed no more errors was found. <a href="https://validator.w3.org/">W3C validator</a>
+  * Errors found and debugged, two errors remaning in index.html (read more about them under results) 
+  * Game.html no errors shown after debugging <a href="https://validator.w3.org/">W3C validator</a>
 * CSS
-   * First one error for game.css for a class contained that wasn't of use, this being fixed by removing the class and no errors were found after passing through the official Jigsaw validator. One thing to note is that style.css and game.css remain with warnings for transition value because of not being known for every browser I believe, yet for now I wanted to keep those transitions anyway knowing about the warnings. <a href="https://jigsaw.w3.org/css-validator/validator">Jigsaw validator</a>
+   * After debugging no errors found and only a few errors remain (read under results) <a href="https://jigsaw.w3.org/css-validator/validator">Jigsaw validator</a>
 * JavaScript 
-   * The Jslint validator gave me mostly warnings of the code, many of them could be fixed by removing som extra comments that the code didn't need. Only a few if my warnings are left and after searching for solutions I found that what Jslint wants is me to put all my for and var variables on the top of the code. yet because I want to know where each and everything is and for what they work I let them remain in the same position and for now until I know a better solution ignore the warnings <a href="https://www.jslint.com/">Jslint</a>
+   * One error and warnings remaning (Read about them under results) <a href="https://www.jslint.com/">Jslint</a>
 
 * Testing was performed as follows: 
 1. Write my code, go to Devtools to see how it looked on different screens so that it stays responsive. 
@@ -194,17 +198,41 @@ Still I am a beginner at coding and I take every oportunity to find ways to impr
 4. Took my HTML code trough the W3C validator making sure there wasn't any errors or warnings. I took my code trough W3C validator first via the live version that already existed and then afterwards via direkt input of my code. 
 5. Ran my CSS trough the Jigsaw validator trough direct input. 
 6. Took the game.js code trough the Jslint validator by direct input.
+7. using lighthouse to see the performance of the website.
 
 ### Results
-* While coding I implemented the header image, and when looking att devtools I saw that this image made the screen of the site too wide. So wide I had to drag the site to the side to see the full page. So whilst using dewtools I looked into what image was the issue and how maybe the width of it could be changed. It took me some tries to find the right class to implement a smaler width for the image yet after some testing the solution ended up with boostrap...?
+* While coding I implemented the header image, and when looking att devtools I saw that this image made the screen of the site too wide. So wide I had to drag the site to the side to see the full page. So whilst using google dewtools I looked into what image was the issue and how maybe the width of it could be changed. It took me some tries to find the right class to implement a smaler width for the image yet after some testing the solution ended up with following boostrap grid system. 
+* Html gave an error for my script tags, this because the script didn't exist inside of the body and was solved by moving the script tags inside the body. After that was fixed no more errors was found.
+* Two errors remaning for index.html these are for the video implemented from youtube, the code has styling properties in it that I couldn't find a solution for to style by css. The issue then was that the video became too big and not responsive so I had to to leave these errors for now. 
+* First one error for game.css for a class contained that wasn't of use, this being fixed by removing the class and no errors were found after passing through the official Jigsaw validator. One thing to note is that style.css and game.css remain with warnings for transition value because of not being known for every browser I believe, yet for now I wanted to keep those transitions anyway knowing about the warnings.
+* The Jslint validator gave me mostly warnings of the code, many of them could be fixed by removing som extra comments that the code didn't need. Only a few of my warnings are left and after searching for solutions I found that what Jslint wants is me to put all my for and var variables on the top of the code. yet because I want to know where each and everything is and for what they work I let them remain in the same position and for now until I know a better solution "ignore" the warnings. 
+* When I felt 99% finished with the website I also tested the performance of the site trough Lighthouse existing in google devtools. This giving me the performance of 91. 
+
 
 ### Bugs
-* Responsiveness 
-<!--Tell about all your bugs you worked out-->
+* Images
+   * I had a problem inserting images and not making them make the page be too wide on smaler screens. This resulted in me playing around on devtools and after trying to fix the problem in css, the solution ended up with giving width to every image on the html page. 
+   * I inserted a function using javascript that helped me make the image in the header move when a user move the mouse, this resulted in removing cause it made the body of the page too wide and not responsive.
+
+
+* Navbar navigation
+   * Wanted to link sections with id's such as id=how and id=rgb in my navigation bar, it worked well in the index.html page but on the game.html these wasn't working. What I found was that I had given the a tag the wrong file path for the game.html page. What had to be done was that I had to write index.html#rgb in the a tags and the links was then working.
+
+
+* Icons in navbar 
+   * I had a problem making the icons in the navigation bar center over the name of the a tags. The issue was that I had to add a class from bootstrap named text-center and all the icons where then center on top of the a tags name. 
+
+
+* The game
+  * After making the JavaScript for the game after saving it in the assets folder the game wasn't no longer responding to the html page and even if it was a simple issue it ended up with that I had forgotten the right file path for the javascript script tag meaning before typing assets I had to implement ./ first. 
 
 ### Unfixed bugs
 * One issue was for me to fix a easy and hard section on the game page. The idea was to insert a timer for the hard section that count down from 15 secounds yet the thing was for me that I didn't really find a solution for what would happen when the timer stops and what value it had when I for now haven't implemented a point system that could let's say remove one point from the one playing if they doesn't answer in time. Another solution could be to reset the colors for when the timer ends, yet for that it became too complex for me to implement the timer function and where to insert it and so on. So unfortunately this will still be a remaning issue for now I cant fix and therefore leave this site with no easy and hard functions. 
 * Refactoring, this maybe goes a bit hand in hand with the unfixed bug bellow. But what I found was that in my javascript code for the game I would like to make it a bit more clean so that it would be easier for me to maybe implment new functions that could let the game do other things (as for example add a timer). But because of my limited knowledge in that area I left it for now and hope in the future to be able to do some refactoring. 
+* After validating my javascript code there was one issue to fix, from what I understand this meant that I had to find a more clean way to write some of my code. I am much happy that I even got the code to work so for now I left that error. 
+* In my Javascript code there is some functions that isn't of use for the game, I decided to leave them because when I started to remove some of them things stoped working for me and I got to scared of trying to clean the code.  
+* I wanted to style all the images and the video on the css for the home page, yet when I did so it didn't show up on the screen and I had to put the styling for the images on the html page instead. A remaining issue I would like to fix to make the code more clean in the future. 
+* After a mentoring session I had to change the styling of the whole website, I made this by making a new file and playing around on that with the old copied and pasted code. This resulted in me deciding to keep the new css file and remove the old style.css. Yet after saving and renaming the test css to style.css the code couldn't fint the file and I had to rename the style.css to styled.css to make it all work again. 
 
 # Deployment 
 The project was made with the help of Github and Gitpod. This by creating a repository on Github to then make the code on Gitpod development workspace, that in return meant that every time i made changes to my code or added something I had to push my code to Github so that the code then was saved on the local repository on github. Note that before pushing my code I made sure to add git commit messages in the terminal so that I always know what I have done in my code. 
@@ -238,7 +266,7 @@ If you would prefer to run the project locally you should follow these steps:
 
 
 # Content
-All content for the code of the website has been created by the help of what I have learnt from code institute and the platforms listed under credits. A extra shoutout to <a href="https://www.shutterstock.com/blog/rgb-definition-design-work">Shutterstock</a> for inspiring me to find a layout for my website. <a href="https://jsndesign.co.uk/blog/javascript-rgb-hex-color-game/">jsndesign</a> for helping me get a understanding of how to even start building a RGB color game and lastly to <a href="https://www.youtube.com/watch?v=Dr-RUryVGA8&t=21s">FaithTower MediaTeck</a> that was the youtube video that inspired me to to a game like this. 
+All content for the code of the website has been created by the help of what I have learnt from code institute and the platforms listed under credits. A extra shoutout to <a href="https://www.shutterstock.com/blog/rgb-definition-design-work">Shutterstock</a> for inspiring me to find a layout for my website. <a href="https://jsndesign.co.uk/blog/javascript-rgb-hex-color-game/">jsndesign</a> for helping me get a understanding of how to even start building a RGB color game and lastly to <a href="https://www.youtube.com/watch?v=Dr-RUryVGA8&t=21s">FaithTower MediaTeck</a> that was the youtube video that inspired me to make a game like this. 
 
 # Media 
 All images where taken from different sources on the web, I do not own any of these images and will note that these are only in use of educational purpouses and the copyright belongs to the brands themself. You will find all the sources for the images linked bellow: 
