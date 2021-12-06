@@ -6,6 +6,7 @@ var pickedColor = pickColor();
 var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.querySelector("#message");
 var square1 = document.querySelector(".square1");
+console.log(square1)
 var resetButton = document.querySelector("#reset");
 
 resetButton.addEventListener("click", function () {
@@ -29,7 +30,7 @@ colorDisplay.textContent = pickedColor;
 //give squares different colors
 for (var i = 0; i < squares.length; i++) {
     //Add initial colors to squares
-    squares[i].style.backgroundColor = colors[i]
+    squares[i].style.backgroundColor = colors[i];
 
     //add click listeners to squares
     squares[i].addEventListener("click", function () {
