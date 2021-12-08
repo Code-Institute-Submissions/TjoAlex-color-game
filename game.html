@@ -66,8 +66,15 @@
         <br>
         <div class="center">
             <p id="message"></p>
+            <p id="message2"></p>
+            <div id="safeTimer">
+                <h2>Timer</h2>
+                <p id="timer"></p>
+                <div id="stop_timer" onclick="clearInterval(setTimer)">Stop time</div>
+            </div>
         </div>
         <button id="reset" class="btn btn-primary selected">Get new rgb</button>
+        <br><br>
 
         <div id="container">
             <div class="row">
@@ -81,11 +88,36 @@
                 </div>
             </div>
         </div>
-        <br>
         <!--Link to home page-->
         <div class="row">
             <div class="col">
                 <a href="index.html">Go back to home page</a>
+            </div>
+        </div>
+        <br>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Click for Help
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Reminder of RGB</h5>
+                    </div>
+                    <div class="modal-body">
+                        R stands for Red, <br>G stands for Green, <br> B stands for blue.<br> These
+                        get a separate value and if the value is 100, 0, 0 the color is most likely to be red. If you
+                        still find it hard click <a href="index.html#rgb">Here</a> to go back to the rgb section of this
+                        website. If you doesn't remember how to play, scroll down on this page and you will find the
+                        how to play section explaining how the game works.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
