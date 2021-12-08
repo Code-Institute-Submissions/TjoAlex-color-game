@@ -1,13 +1,15 @@
 //Array of 6 colors
-const colors = generateRandomColors(6);
+let colors = generateRandomColors(6);
 //List of variables
 const squares = document.querySelectorAll(".square");
-const pickedColor = pickColor();
+let pickedColor = pickColor();
 const colorDisplay = document.getElementById("colorDisplay");
 const messageDisplay = document.querySelector("#message");
 const square1 = document.querySelector(".square1");
 const resetButton = document.querySelector("#reset");
-const scores = document.querySelector("#score")
+const ss = document.getElementsByClassName('stopwatch');
+const setTimer = setInterval(timers, 1000);
+
 
 resetButton.addEventListener("click", function () {
     //generat all new colors
@@ -20,7 +22,7 @@ resetButton.addEventListener("click", function () {
 
     messageDisplay.textContent = "";
     //change colors of squares
-    for (const i = 0; i < squares.length; i++) {
+    for (let i = 0; i < squares.length; i++) {
         squares[i].style.backgroundColor = colors[i];
     }
 })
@@ -28,7 +30,7 @@ resetButton.addEventListener("click", function () {
 colorDisplay.textContent = pickedColor;
 
 //give squares different colors
-for (const i = 0; i < squares.length; i++) {
+for (let i = 0; i < squares.length; i++) {
     //Add initial colors to squares
     squares[i].style.backgroundColor = colors[i];
 
@@ -38,11 +40,9 @@ for (const i = 0; i < squares.length; i++) {
         const clickedColor = this.style.backgroundColor;
         //Compare color to pickedColor
         if (clickedColor === pickedColor) {
-            messageDisplay.textContent = "Correct!";
-            resetButton.textContent = "Play Again!"
-            scores.text += 1;
+            messageDisplay.textContent = "Correct!"; //want to add + "something holding and telling paused time"
+            resetButton.textContent = "Play Again!" // here add something resetting & starting the timer again
             changeColors(clickedColor);
-            //square1.style.backgroundColor = clickedColor;
         } else {
             this.style.backgroundColor = "#232323"
             messageDisplay.textContent = "Try Again"
@@ -53,7 +53,7 @@ for (const i = 0; i < squares.length; i++) {
 
 function changeColors(color) {
     //loop through all squares
-    for (const i = 0; i < squares.length; i++) {
+    for (let i = 0; i < squares.length; i++) {
         //change each color to match given color
         squares[i].style.backgroundColor = color;
     }
@@ -68,7 +68,7 @@ function generateRandomColors(num) {
     //make array
     const arr = []
     //repeat num times
-    for (const i = 0; i < num; i++) {
+    for (let i = 0; i < num; i++) {
         //get random color and push into array
         arr.push(randomColor())
     }
@@ -85,4 +85,21 @@ function randomColor() {
     const b = Math.floor(Math.random() * 256);
     "rgb(r,g,b)"
     return "rgb(" + r + ", " + g + ", " + b + ")";
+}
+
+// setInterval Timer
+let totalSeconds = 0;
+
+function timers() {
+    ++totalSeconds;
+    let hour = Math.floor(totalSeconds / 3600);
+    let minute = Math.floor((totalSeconds - hour * 3600) / 60);
+    let seconds = totalSeconds - (hour * 3600 + minute * 60);
+    if (hour < 10)
+        hour = "0" + hour;
+    if (minute < 10)
+        minute = "0" + minute;
+    if (seconds < 10)
+        seconds = "0" + seconds;
+    document.getElementById("timer").innerHTML = hour + ":" + minute + ":" + seconds;
 }
