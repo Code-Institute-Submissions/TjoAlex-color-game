@@ -67,53 +67,54 @@ We wanted this website to have a more clean, modern and simple look. With the us
 ## Existing Features: 
 
 * Navigation Bar
-   * The navigation bar is designed to always stay with the user trough the site, with a minimal and simple look and some icons as well as text showing what the user can find and quickly take them there. This also provided with a smaler line that when the user hover their mouse over the options of the menu they can easy see where they are looking. 
+   * The navigation bar is designed to always stay with the user trough the site.
+   * Minimal and simple looking and some icons as well as text showing what the user can find and quickly take them there. 
+   * A line showing up when the user hover over one of the navigation bar options.
 
 * The header section 
-   * Here the user is presented with one image to give the header som style and make the over all look a little bit more fun.
-   * Holds a heading of the name for the "Company"
-   * Holds a smaler text explaining the whole purpous of the site in a welcoming way
-   * Holds a button with a hover effect that lead the user to the game right away.
-   * Also holds the navigation that will remain whilst scrolling
+   * The user is presented with one image to give the header som style and make the over all look a little bit more fun.
+   * Holds a heading of the name for the "Company";
+   * Holds a smaler text explaining the whole purpous of the site in a welcoming way;
+   * Holds a button with a hover effect that lead the user to the game right away;
+   * Holds the navigation that will remain whilst scrolling.
 ![Header](assets/img/header.png)   
 
 * The welcome Section 
-   * Heading that welcome the user even more 
-   * Some text that want the user to feel welcome and get a bigger understanding of what the purpous of the site is
-   * Image that show a quick look of how the rgb module looks
+   * Heading that welcome the user even more;
+   * Some text that want the user to feel welcome and get a bigger understanding of what the purpous of the site is;
+   * Image that show a quick look of how the rgb module looks.
 ![Header](assets/img/welcome-sec.png)  
 
 * RGB section 
-   * Main heading of the name RGB
-   * Smaler headings telling what the text is about
-   * Here the user is provided with text that tells all about RGB
-   * A image is provided to demonstrate how rgb is overlapping with it's color  
+   * Main heading of the name RGB;
+   * Smaler headings telling what the text is about;
+   * the user is provided with text that tells all about RGB;
+   * A image to demonstrate how rgb is overlapping with it's colors.
 ![Header](assets/img/rgb-txt.png) 
 
 * How to play section 
-   * Heading of How to play, so the users knows what section they are on 
-   * A video displayed for the user to watch showing how the game works 
-   * Smaler heading telling step by step 
-   * Step by step text of how the game works
-   * Image to the right or under(if on smaler screen) the step by step text with numbers following the step by step text
+   * Heading of How to play, so the users knows what section they are on;
+   * A video displayed for the user to watch showing how the game works;
+   * Smaler heading telling step by step;
+   * Step by step text of how the game works;
+   * Image to the right or under(if on smaler screen) the step by step text with numbers following the step by step text.
 ![Header](assets/img/how-txt.png)  
 
 * Game page 
-   * Heading of the name for the game
-   * RGB value displayed under heading
-   * Button proving new colors and RGB value 
-   * Squares with colors to pick from when playing the game 
-   * Text displayed when the user plays the game so he or she knows if the answer is correct or not
-   * Also provided with the navigation bar that stays with the user on scroll
+   * Heading of the name for the game;
+   * RGB value displayed under heading;
+   * Button proving new colors and RGB value;
+   * Squares with colors to pick from when playing the game;
+   * Text displayed when the user plays the game so he or she knows if the answer is correct or not;
+   * Also provided with the navigation bar that stays with the user on scroll.
 ![Header](assets/img/spel.png)    
 
-Features left to implement:
-I would belive that for every website there are in most cases  features that could be implemented, for this I have found a few that would be of more use all listed bellow:
+## Features left to implement
+ A few feature that would be of more use to make this webiste better, all listed bellow:
 
-* Insert two extra buttons for the game that holds a easy and hard function, the hard function then holding a timer that gives the user let's say 15 secounds to find the right color on.
-* For the game a  system that also takes points scored for each correct answer and store these in a scoreboard bellow the game. So the user always can come back and compete with them selfe to always try to do a little bit better than the last time. 
-* Even deeper explanation of rgb and maybe also a rgb rendering "machine" that can let the user play around by clicking on different colors and for themself see what value their preferred color has.
-* More information about rgb and maybe some links that lead to more pages explaining rgb. 
+* For the game a  a socre board that counts how many times the user guessed right or wrong. 
+* More information about rgb and some links that lead to more pages explaining rgb. 
+* A quiz regarding RGB so the user can practise even more.
 
 ## Thecnologies Used
 
