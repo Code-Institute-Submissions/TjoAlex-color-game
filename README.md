@@ -205,15 +205,15 @@ The W3C Markup Validator, W3C CSS Validator and jshint.com was used to validate 
 ## Further Testing 
 
 * The website was tested on google chrome and Safari browsers. 
-* The website was sieved on various different devices, laptops, different iPhones and desktops.
+* The website was viewed on various different devices, laptops, different iPhones and desktops.
 * The website was viewed on google chrome dev tools to find any errors and test overall responsiveness.
-* Friends, family, slack members, my mentor and tutors had the chance to look at this website and give me some extra feedback on potential issues, bugs and user experience issues. 
+* Friends, family, slack members and my mentor had the chance to look at this website and give me some extra feedback on potential issues, bugs and user experience issues. 
 
 ## Known bugs
 
 * The squares once they are clicked turn black when clicking on them and the answer is wrong, my wish was to make these go white so that they ”disappear” yet this maintain for a future fix. 
-* On mobile devices the squares goes a bit too small on mobile devices and could be hard to see for some people. 
-* The Javascript code wouold need some refactoring to get more clean.  
+* On mobile devices the squares goes a bit too small and could be hard to see for some people. 
+* The Javascript code in a best case scenario need some refactoring to get more clean.  
 
 # Deployment 
 
@@ -229,19 +229,19 @@ This project as mentioned under the Frameworks section was deployed to GitHub pa
 
 If you would prefer to run the project locally you should follow these steps: 
 
-1. Log in to Github and open the repository that you wanted to deploy
-2. Click on the repository then press the button code
-3. There you will find Clone and Download ZIP
-4. Open in your preferres IDE
-5. Run your local server 
+1. Log in to Github and open the repository that you wanted to deploy.
+2. Click on the repository then press the button code.
+3. There you will find Clone and Download ZIP.
+4. Open in your preferres IDE.
+5. Run your local server. 
 
 # Credits 
 
 ## Code 
 * MBD to help me understand how to work with bootstrap, making a header for the home page and how to implement a video <a href="https://mdbootstrap.com/docs/standard/content-styles/background-image/">MBD</a>
 * jsndesign for helping me understand hwo to make a random RGB generating function, how to create tags that will send out the function to the game itself, how to make a function to generate random colors in a array and so on. <a href="https://jsndesign.co.uk/blog/javascript-rgb-hex-color-game/">jsndesign</a>
-Several of my problems was solved by looking at <a href="https://www.w3schools.com/">W3Schools</a> website and also <a href="https://stackoverflow.com/">Stackoverflow</a>. 
 * I did not come up with the idea for the RGB color game myself and found the inspiration for it from FaithTower MediaTeck on youtube <a href="https://www.youtube.com/watch?v=Dr-RUryVGA8&t=21s">FaithTower MediaTeck</a>
+* Several of my problems was solved by looking at <a href="https://www.w3schools.com/">W3Schools</a> website and also <a href="https://stackoverflow.com/">Stackoverflow</a>. 
 
 ## Media 
 All images used on this website was taken from different sources. None of these are owned by me and are only used in educational purpose, therefore the copyright belongs to the brands themselves all linked bellow:
