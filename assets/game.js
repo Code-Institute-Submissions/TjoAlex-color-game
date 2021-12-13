@@ -13,6 +13,8 @@ const easyBtn = document.querySelector("#easyBtn");
 const hardBtn = document.querySelector("#hardBtn");
 const ss = document.getElementById("stopwatch");
 let end, tId;
+
+
 const clock = function () {
     const now = new Date()
     const diff = parseInt((end.getTime() - now.getTime()) / 1000);
@@ -91,7 +93,7 @@ for (let i = 0; i < squares.length; i++) {
         const clickedColor = this.style.backgroundColor;
         //Compare color to pickedColor
         if (clickedColor === pickedColor) {
-            messageDisplay.textContent = "Correct! Your time was:";
+            messageDisplay.textContent = "Correct! Your time left was:";
             resetButton.textContent = "Play Again!"
             changeColors(clickedColor);
             clearInterval(tId);
