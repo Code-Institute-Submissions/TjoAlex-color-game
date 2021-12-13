@@ -13,14 +13,15 @@ const easyBtn = document.querySelector("#easyBtn");
 const hardBtn = document.querySelector("#hardBtn");
 const ss = document.getElementById("stopwatch");
 let end, tId;
-const clock = () => {
+const clock = function () {
     const now = new Date()
     const diff = parseInt((end.getTime() - now.getTime()) / 1000);
     // Display timer message
-    ss.textContent = diff <= 0 ? "More than a minute" : diff + " second" + (diff === 1 ? "" : "s")
+    ss.textContent = diff <= 0 ? "Over a minute" :
+        diff + " second" + (diff === 1 ? "" : "s")
 }
 
-const reset = () => {
+const reset = function () {
     end = new Date()
     // add 1 minute 
     end.setMinutes(end.getMinutes() + 1);
@@ -29,9 +30,8 @@ const reset = () => {
 }
 
 easyBtn.addEventListener("click", function () {
-    // display easy button selected
     hardBtn.classList.remove("selected");
-    easyBtn.classList.add("selected");
+    easyBtn.classList.add("selected"); // display easy button selected
     numSquares = 3
     // 3 squares displaying
     colors = generateRandomColors(numSquares);
@@ -47,8 +47,7 @@ easyBtn.addEventListener("click", function () {
 });
 
 hardBtn.addEventListener("click", function () {
-    // display hard btn selected 
-    hardBtn.classList.add("selected");
+    hardBtn.classList.add("selected"); // display hard btn selected 
     easyBtn.classList.remove("selected");
     // Add number of squares
     numSquares = 6;
