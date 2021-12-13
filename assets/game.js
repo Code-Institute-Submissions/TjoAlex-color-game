@@ -19,7 +19,7 @@ const clock = function () {
     const now = new Date()
     const diff = parseInt((end.getTime() - now.getTime()) / 1000);
     // Display timer message
-    ss.textContent = diff <= 0 ? "Over a minute" :
+    ss.textContent = diff <= 0 ? "No more time left" :
         diff + " second" + (diff === 1 ? "" : "s")
 }
 
