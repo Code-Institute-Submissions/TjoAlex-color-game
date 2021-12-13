@@ -1,6 +1,6 @@
 # RGB Color Game 
 
-![mockup](./assets/img/spel.png)
+![mockup](./assets/img/mockup.png)
 
 Live <a href="http">Website</a>
 
@@ -21,7 +21,7 @@ Welcome to RGB Color Game where we want to give the user a fun and easy way of l
 * Returning Visitor Goals
     * As a returning visitor, I want to have easy access to the RGB color game;
     * As a returning visitor, I want to quickly find the information about RGB;
-    * As a returning visitor, I want to easily find the infromation about how the game works, in case I don't rememeber.
+    * As a returning visitor, I want to easily find the information about how the game works, in case I don't rememeber.
     * As a returning visitor, I want the same game experience as a first time visitor.
 
 * Frequent User Goals
@@ -40,8 +40,9 @@ Based on the determined strategy and taking into account the user stories the we
     * A button to change rgb value with;
     * A easy & hard button adding or removing squares from the screen;
     * Text displaying if the user guesses correctly or not;
+    * A timer counting down in seconds and stops when user guesses correct;
     * A link leading back to the home page; 
-    * A help modal showcasing a screen that hold text explaining the rgb values once more.
+    * A help modal opening a screen that hold text explaining the rgb values once more.
     * A how the game works section. 
 
 ## Structure 
@@ -103,11 +104,12 @@ We wanted this website to have a more clean, modern and simple look. With the us
 * Game page 
    * Heading of the name for the game;
    * RGB value displayed under heading;
-   * Button proving new colors and RGB value;
+   * Button proving new colors, new RGB value and reset timer;
    * Squares with colors to pick from when playing the game;
-   * Text displayed when the user plays the game so he or she knows if the answer is correct or not;
-   * Also provided with the navigation bar that stays with the user on scroll.
-![Header](assets/img/spel.png)    
+   * Text displayed when the user plays the game so he or she knows if the answer is correct or not and know how much time there is;
+   * Easy and hard button that gives the user 3 or 6 squares.
+   * Also provided with the navigation bar that stays with the user on scroll.<br>
+![Header](assets/img/howt.png)    
 
 ## Features left to implement
  A few feature that would be of more use to make this webiste better, all listed bellow:
@@ -115,6 +117,7 @@ We wanted this website to have a more clean, modern and simple look. With the us
 * For the game a  a socre board that counts how many times the user guessed right or wrong. 
 * More information about rgb and some links that lead to more pages explaining rgb. 
 * A quiz regarding RGB so the user can practise even more.
+* A updated video that show how the updated game works, the principe is the same only a few features have been added and could be good to display even in the video. 
 
 ## Thecnologies Used
 
@@ -149,7 +152,7 @@ For this project following thecnologies was used;
 
 * Website 4: <a href="https://mdbootstrap.com/">MDB</a> bootstrap was used so that I would understand core concepts of bootstrap and learn simple ways to work with the boostrap library in a more simple way and create more out of the look I wanted for the website. 
 
-My own feature: Not only is the styling a big part here as well as the information page holding how the game works and explaining rgb something impelented by me. But my main purpose by choosing this game was to find a good way to make this code my own and in a more functional way that makes it easy for several people to read and understand what was going in. 
+My own feature: Not only is the styling a big part here as well as the information page holding how the game works and explaining rgb something impelented by me. Yet the timer is something I had to wrok a lot on my own to figure out. To do so I had to turn to this video on youtube made by <a href="https://www.youtube.com/watch?v=9-5URe9CykA&list=LL&index=2">Muhanad Hasan</a> that explained to me how a timer works and how one could do to implement it in this game. Second resource was <a href="https://www.w3schools.com/jsref/met_win_setinterval.asp">W3School</a> again helping me understand how to make a set interval method. And lastly I had to turn to <a href="https://stackoverflow.com/questions/20618355/how-to-write-a-countdown-timer-in-javascript">Stack Overflow</a> to see how other people had done everything and find insipration from there without copy or paste anything, just to give myself some understanding. 
 
 
 # Testing 
@@ -242,7 +245,9 @@ If you would prefer to run the project locally you should follow these steps:
 * MBD to help me understand how to work with bootstrap, making a header for the home page and how to implement a video <a href="https://mdbootstrap.com/docs/standard/content-styles/background-image/">MBD</a>
 * jsndesign for helping me understand hwo to make a random RGB generating function, how to create tags that will send out the function to the game itself, how to make a function to generate random colors in a array and so on. <a href="https://jsndesign.co.uk/blog/javascript-rgb-hex-color-game/">jsndesign</a>
 * I did not come up with the idea for the RGB color game myself and found the inspiration for it from FaithTower MediaTeck on youtube <a href="https://www.youtube.com/watch?v=Dr-RUryVGA8&t=21s">FaithTower MediaTeck</a>
-* Several of my problems was solved by looking at <a href="https://www.w3schools.com/">W3Schools</a> website and also <a href="https://stackoverflow.com/">Stackoverflow</a>. 
+* Without the help from this video I would never have understood how to make a timer in javascript therefore this needs a huge credit for its good explenation on how to create a timer <a href="https://www.youtube.com/watch?v=9-5URe9CykA&list=LL&index=2">Muhanad Hasan</a>
+* This page teached even furthure about how to make a timer and was much needed whilst trying to figure out how to make it start counting once the page load <a href="https://stackoverflow.com/questions/20618355/how-to-write-a-countdown-timer-in-javascript">Stack Overflow</a>
+* Several of my problems was solved by looking at <a href="https://www.w3schools.com/">W3Schools</a> website and also <a href="https://stackoverflow.com/">Stackoverflow</a>
 
 ## Media 
 All images used on this website was taken from different sources. None of these are owned by me and are only used in educational purpose, therefore the copyright belongs to the brands themselves all linked bellow:
