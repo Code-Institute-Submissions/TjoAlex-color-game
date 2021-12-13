@@ -1,5 +1,7 @@
-//Array of 6 colors
-let colors = generateRandomColors(6);
+// Declaring the numer of squares
+let numSquares = 6;
+//Array of colors
+let colors = generateRandomColors(numSquares);
 //List of variables
 const squares = document.querySelectorAll(".square");
 let pickedColor = pickColor();
@@ -7,13 +9,62 @@ const colorDisplay = document.getElementById("colorDisplay");
 const messageDisplay = document.querySelector("#message");
 const square1 = document.querySelector(".square1");
 const resetButton = document.querySelector("#reset");
-const ss = document.getElementsByClassName('stopwatch');
-const setTimer = setInterval(timers, 1000);
+const easyBtn = document.querySelector("#easyBtn");
+const hardBtn = document.querySelector("#hardBtn");
+const ss = document.getElementById("stopwatch");
+let end, tId;
+const clock = () => {
+    const now = new Date()
+    const diff = parseInt((end.getTime() - now.getTime()) / 1000);
+    // Display timer message
+    ss.textContent = diff <= 0 ? "More than a minute" : diff + " second" + (diff === 1 ? "" : "s")
+}
 
+const reset = () => {
+    end = new Date()
+    // add 1 minute 
+    end.setMinutes(end.getMinutes() + 1);
+    clearInterval(tId)
+    tId = setInterval(clock, 1000)
+}
 
+easyBtn.addEventListener("click", function () {
+    // display easy button selected
+    hardBtn.classList.remove("selected");
+    easyBtn.classList.add("selected");
+    numSquares = 3
+    // 3 squares displaying
+    colors = generateRandomColors(numSquares);
+    pickedColor = pickColor();
+    colorDisplay.textContent = pickedColor;
+    for (let i = 0; i < squares.length; i++) {
+        if (colors[i]) {
+            squares[i].style.background = colors[i];
+        } else {
+            squares[i].style.display = "none";
+        }
+    }
+});
+
+hardBtn.addEventListener("click", function () {
+    // display hard btn selected 
+    hardBtn.classList.add("selected");
+    easyBtn.classList.remove("selected");
+    // Add number of squares
+    numSquares = 6;
+    colors = generateRandomColors(numSquares);
+    pickedColor = pickColor();
+    colorDisplay.textContent = pickedColor;
+    for (let i = 0; i < squares.length; i++) {
+        squares[i].style.background = colors[i];
+        squares[i].style.display = "block";
+    }
+});
+
+reset(); //start timer again
 resetButton.addEventListener("click", function () {
     //generat all new colors
-    colors = generateRandomColors(6);
+    colors = generateRandomColors(numSquares);
     //pick new random color from array
     pickedColor = pickColor();
     //change color display to match picked color
@@ -25,6 +76,7 @@ resetButton.addEventListener("click", function () {
     for (let i = 0; i < squares.length; i++) {
         squares[i].style.backgroundColor = colors[i];
     }
+    reset();
 })
 
 colorDisplay.textContent = pickedColor;
@@ -40,14 +92,14 @@ for (let i = 0; i < squares.length; i++) {
         const clickedColor = this.style.backgroundColor;
         //Compare color to pickedColor
         if (clickedColor === pickedColor) {
-            messageDisplay.textContent = "Correct!"; //want to add + "something holding and telling paused time"
-            resetButton.textContent = "Play Again!" // here add something resetting & starting the timer again
+            messageDisplay.textContent = "Correct! Your time was:";
+            resetButton.textContent = "Play Again!"
             changeColors(clickedColor);
+            clearInterval(tId);
         } else {
             this.style.backgroundColor = "#232323"
             messageDisplay.textContent = "Try Again"
         }
-
     });
 }
 
@@ -85,21 +137,4 @@ function randomColor() {
     const b = Math.floor(Math.random() * 256);
     "rgb(r,g,b)"
     return "rgb(" + r + ", " + g + ", " + b + ")";
-}
-
-// setInterval Timer
-let totalSeconds = 0;
-
-function timers() {
-    ++totalSeconds;
-    let hour = Math.floor(totalSeconds / 3600);
-    let minute = Math.floor((totalSeconds - hour * 3600) / 60);
-    let seconds = totalSeconds - (hour * 3600 + minute * 60);
-    if (hour < 10)
-        hour = "0" + hour;
-    if (minute < 10)
-        minute = "0" + minute;
-    if (seconds < 10)
-        seconds = "0" + seconds;
-    document.getElementById("timer").innerHTML = hour + ":" + minute + ":" + seconds;
 }
