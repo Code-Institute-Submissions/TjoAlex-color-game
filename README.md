@@ -112,16 +112,16 @@ We wanted this website to have a more clean, modern and simple look. With the us
 ![Header](assets/img/howt.png)    
 
 ## Features left to implement
- A few feature that would be of more use to make this webiste better, all listed bellow:
+ A few feature that would be of more use to make this website better, all listed bellow:
 
 * For the game a  a socre board that counts how many times the user guessed right or wrong. 
 * More information about rgb and some links that lead to more pages explaining rgb. 
 * A quiz regarding RGB so the user can practise even more.
-* A updated video that show how the updated game works, the principe is the same only a few features have been added and could be good to display even in the video. 
+* A updated video that show how the updated game works, the principle  is the same only a few features have been added and could be good to display even in the video. 
 
 ## Thecnologies Used
 
-For this project following thecnologies was used;
+For this project following technologies was used;
 
 ## Languages Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML) 
@@ -135,12 +135,12 @@ For this project following thecnologies was used;
 * wireframe.cc, to create wireframes <a href="https://wireframe.cc/">wireframe.cc</a> 
 * Bootstrap V5.0.x used to create a responsive website, thanks to their libraries and documentation. <a href="https://getbootstrap.com/docs/5.0/components/accordion/">Bootstrap</a>
 * Google fonts to have a easy to read font for the site <a href="https://fonts.google.com/specimen/Roboto?thickness=6">Google fonts</a>
-* Gitpod. mainly used to create the code <a href="https://gitpod.io/workspaces">Gitpod</a>
+* Gitpod mainly used to create the code <a href="https://gitpod.io/workspaces">Gitpod</a>
 * Colors to help find a template for the theme colors of the website <a href="https://coolors.co/ca054d-3b1c32-a4d4b4-ffcf9c-b96d40">Colors</a>
 * Iconscount for their use of all images of the page <a href="https://iconscout.com/free-illustrations">Iconscount</a>
 * Validators to test my code <a href="https://validator.w3.org/">W3C</a>,<a href="https://www.jslint.com/">Jslint</a> and <a href="https://jigsaw.w3.org/css-validator/">Jigsaw</a>
 * Lighthouse for testing performance and accessibility of the site existing in google devtools. 
-* Google Chrome Devtools: for testing the site and how responsive it is.
+* Google Chrome Devtools for testing the site and how responsive it is.
 
 # The realisation of this project
 
@@ -152,7 +152,7 @@ For this project following thecnologies was used;
 
 * Website 4: <a href="https://mdbootstrap.com/">MDB</a> bootstrap was used so that I would understand core concepts of bootstrap and learn simple ways to work with the boostrap library in a more simple way and create more out of the look I wanted for the website. 
 
-My own feature: Not only is the styling a big part here as well as the information page holding how the game works and explaining rgb something impelented by me. Yet the timer is something I had to wrok a lot on my own to figure out. To do so I had to turn to this video on youtube made by <a href="https://www.youtube.com/watch?v=9-5URe9CykA&list=LL&index=2">Muhanad Hasan</a> that explained to me how a timer works and how one could do to implement it in this game. Second resource was <a href="https://www.w3schools.com/jsref/met_win_setinterval.asp">W3School</a> again helping me understand how to make a set interval method. And lastly I had to turn to <a href="https://stackoverflow.com/questions/20618355/how-to-write-a-countdown-timer-in-javascript">Stack Overflow</a> to see how other people had done everything and find insipration from there without copy or paste anything, just to give myself some understanding. 
+My own feature: Not only is the styling a big part here as well as the information page holding how the game works and explaining rgb something impelented by myself. Yet the timer is something I had to work a lot on my own to figure out. To do so I had to turn to this video on youtube made by <a href="https://www.youtube.com/watch?v=9-5URe9CykA&list=LL&index=2">Muhanad Hasan</a> that explained to me how a timer works and how one could do to implement it in this game. Second resource was <a href="https://www.w3schools.com/jsref/met_win_setinterval.asp">W3School</a> again helping me understand how to make a set interval method. And lastly I had to turn to <a href="https://stackoverflow.com/questions/20618355/how-to-write-a-countdown-timer-in-javascript">Stack Overflow</a> to see how other people had done everything and find insipration from there without copy or paste anything, just to give myself some understanding. 
 
 
 # Testing 
@@ -163,7 +163,7 @@ The W3C Markup Validator, W3C CSS Validator and jshint.com was used to validate 
 
 <a href="https://jigsaw.w3.org/css-validator/validator">W3C CSS Validator</a> - No errors or warnings found.
 
-<a href="https://www.jslint.com/">Jslint.com</a> - No errors or warnings found. 
+<a href="https://www.jslint.com/">Jslint.com</a> - No errors found, ther was some warnings that basically all of them were browser warnings. 
 
 ## Testing user stories mentioned earlier 
 
@@ -171,7 +171,7 @@ The W3C Markup Validator, W3C CSS Validator and jshint.com was used to validate 
     * As a first time visitor, I want quick and easy understanding about the main purpous of the website
         * The user is given explanation and easy access already on the landing page regarding the rgb information and rgb game.
     * As a first time visitor, I want easy navigation that takes me to my prefered information or playground on the website
-        * The user have a navigation bar that holds all links to the different sections of the landing page as well as a the game itself. 
+        * The user have a navigation bar that holds all links to the different sections of the landing page as well as the game itself. 
         * The user can see a button leading to the game on the top of the landing page. 
         * On the game page the user is provided with the navigation bar and a extra link under the game leading back to the home page. 
         * On the game page the user can also find easy access back to the rgb section on the home page by pressing the ”Click for help” button that give further information about rgb and holds a extra link to that specific part. 
@@ -179,13 +179,13 @@ The W3C Markup Validator, W3C CSS Validator and jshint.com was used to validate 
         * A section on the bottom of the home page/landing page is holding all information about how the game works both presented in video, text and image.
         * The user get the same text information about how the game works also on the game page right under the game itself. Easily found as long as the user scroll down on the page.  
    * As a first time visitor, I Want a section that clearly describes RGB
-        * The user can find a section on the home page explaining about rgb, found if he or she chooses to scroll down on the page or presses the rob section on the navigation bar.
+        * The user can find a section on the home page explaining rgb, found if he or she chooses to scroll down on the page or presses the rgb section on the navigation bar.
         * The user get further information about rgb on the game page if clicking on the ”Click for help” button giving a reminder of how rgb works. 
    * As a first time visitor, I want good basic knowledge in RGB
-        * If the user read all the information provided on the home page about rgb and then play the rgb game it’s most likely that he or she are going to get basic knowledge of this subject.  
+        * If the user read all the information provided on the home page about rgb and then play the rgb game it’s most likely that he or she are going to get basic knowledge for this subject.  
         * The website is something one also can get back to in case the user would need a reminder of the subject and continue to get basic knowledge of rgb.
    * As a first time visitor, I want a simple game to test my new knowledge in RGB.
-        * The use can find a page holding the game itself on the website providing he or she with everything in need to play the game and continue to practice their learnt skills. 
+        * The use can find a page holding the game itself on the website providing he or she with everything in need to play the game and continue to practice their learned skills.
 
 * Returning Visitor Goals
     * As a returning visitor, I want to have easy access to the RGB color game
@@ -193,7 +193,7 @@ The W3C Markup Validator, W3C CSS Validator and jshint.com was used to validate 
         * The user can always use the navigation bar to find everything on the page here also the game by pressing on the name ”game”
     * As a returning visitor, I want to quickly find the information about RGB
         * The user can use the navigation bar to go directly to the rgb section
-        * The user can find a link on the game page on the click for help button holding text about rgb and a link leading to the rob section of the home page 
+        * The user can find a link on the game page on the click for help button holding text about rgb and a link leading to the rgb section of the home page 
         * The user can scroll down on the home page and quickly find the rgb section.
     * As a returning visitor, I want to easily find the information about how the game works, in case I don't rememeber
         * Scrolling down to the bottom of the home page leads directly to the explanation of how the game works. 
@@ -210,13 +210,14 @@ The W3C Markup Validator, W3C CSS Validator and jshint.com was used to validate 
 
 * The website was tested on google chrome and Safari browsers. 
 * The website was viewed on various different devices, laptops, different iPhones and desktops.
-* The website was viewed on google chrome dev tools to find any errors and test overall responsiveness.
+* The website was viewed on google chrome devtools to find any errors and test overall responsiveness.
 * Friends, family, slack members and my mentor had the chance to look at this website and give me some extra feedback on potential issues, bugs and user experience issues. 
 
 ## Known bugs
 
 * The squares once they are clicked turn black when clicking on them and the answer is wrong, my wish was to make these go white so that they ”disappear” yet this maintain for a future fix. 
 * On mobile devices the squares goes a bit too small and could be hard to see for some people. 
+* The timer for the game would preferably count up instead of down so that how long it took for the user to guess would be displayed, instead of how much time the user had left guessing. 
 * The Javascript code in a best case scenario need some refactoring to get more clean.  
 
 # Deployment 
@@ -243,9 +244,9 @@ If you would prefer to run the project locally you should follow these steps:
 
 ## Code 
 * MBD to help me understand how to work with bootstrap, making a header for the home page and how to implement a video <a href="https://mdbootstrap.com/docs/standard/content-styles/background-image/">MBD</a>
-* jsndesign for helping me understand hwo to make a random RGB generating function, how to create tags that will send out the function to the game itself, how to make a function to generate random colors in a array and so on. <a href="https://jsndesign.co.uk/blog/javascript-rgb-hex-color-game/">jsndesign</a>
+* jsndesign for helping me understand hwo to make a random RGB generating function, how to create tags that will send out the function to the game itself, how to make a function to generate random colors in a array, easy and hard buttons and so on. <a href="https://jsndesign.co.uk/blog/javascript-rgb-hex-color-game/">jsndesign</a>
 * I did not come up with the idea for the RGB color game myself and found the inspiration for it from FaithTower MediaTeck on youtube <a href="https://www.youtube.com/watch?v=Dr-RUryVGA8&t=21s">FaithTower MediaTeck</a>
-* Without the help from this video I would never have understood how to make a timer in javascript therefore this needs a huge credit for its good explenation on how to create a timer <a href="https://www.youtube.com/watch?v=9-5URe9CykA&list=LL&index=2">Muhanad Hasan</a>
+* Without the help from this video I would never have understood how to make a timer in javascript therefore this needs a huge credit for its good explanation on how to create a timer <a href="https://www.youtube.com/watch?v=9-5URe9CykA&list=LL&index=2">Muhanad Hasan</a>
 * This page teached even furthure about how to make a timer and was much needed whilst trying to figure out how to make it start counting once the page load <a href="https://stackoverflow.com/questions/20618355/how-to-write-a-countdown-timer-in-javascript">Stack Overflow</a>
 * Several of my problems was solved by looking at <a href="https://www.w3schools.com/">W3Schools</a> website and also <a href="https://stackoverflow.com/">Stackoverflow</a>
 
